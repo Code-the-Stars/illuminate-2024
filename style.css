@@ -6,7 +6,7 @@ body, h1, p {
 
 /* Set a background color */
 body {
-    background-color: #8787f0; /* Dark blue */
+    background-color: #ffffff; /* Dark blue */
 }
 
 /* Center the content */
@@ -40,12 +40,43 @@ html {
     content: 0px;
     padding: auto;
 }
-h1, h2, h3, h4, h5, h6, p, li, a {
-    color: #dbdcf5;
+h1, h2, h3, h4, h5, h6, p, a {
+    color: #272963;
 }
-#Logo {
-    height: 225px;
-    width: 225;
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #ffffff;
+    justify-content: space-between;
+    overflow: auto;
+  }
+  ul li {
+    position: relative;
+    margin: 0 20px;
+    list-style: none;
     display: inline-block;
-    vertical-align: middle;
-}
+    padding: 14px;
+    font-size: 17px;
+  }
+  ul li a{
+  text-decoration: none; 
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  }
+  ul li a:hover {
+     background-color: rgb(129, 123, 123);
+  }
+  #CLICKHERE {
+    color: rgb(30, 131, 131);
+    text-decoration: none;
+  }
+  #email {
+    text-decoration: none;
+  }
