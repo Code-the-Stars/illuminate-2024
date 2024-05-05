@@ -6,5 +6,9 @@ Illuminate is a virtual hackathon taking place on June 7th to June 9th for high-
 We want the community to work on the CSS to show what they know! All you have to do is fork our repository (or make a branch), code on the style.css page (Don't change or delete any code that exists), and make a pull request! If the code looks good, it will get approved and become a part of the website and you will be added to our credits list! 
 ### How the Turns have Tabled
 This website will keep getting new pages with atrocious css. Its up to YOU to make it look how you want it to look! This is a mini-competition. The person who makes our website look the coolest will get a little prize, courtesy of Code the Stars. Keep checking to see if there's a new page, or press watch on the top of the page. The results will be announced in the opening ceremony!
+### Update:
+Hey everyone! In order to protect your code, and so we can see who did what, there is now a folder called 'csschallenge'. When you fork the repo, make sure you create a folder with your username and add all of your code there. The starter website code is in code.md in the folder. Copy the code and paste it in your files! Once you are done, just make a PR! There is an example folder in csschallenge for you to take reference of.
+#### TL;DR
+All you have to do is make a folder in csschallenge and copy-paste your starter code (found in code.md in the folder) and code! Once you finish, make a PR. Vercel should deploy your code, and a staff will review it.
 # Credits:
 @Lightshayan
