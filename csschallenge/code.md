@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6, p, a {
 
         <section id="schedule">
             <h2>Schedule</h2>
-            <p>Coming Soon! The event starts at 6:00 pm on Friday, June 7th, and ends at 12:00 pm on Sunday, June 9th. </p>
+            <p>Coming Soon! The event starts at 6:00 pm on Friday, June 7th, and ends at 12:00 pm on Sunday, June 9th. All times are EST.</p>
             <ul>
                <!--insert schedule pic Here! - example below
                 <li>Friday, 6:00 PM - Opening Ceremony</li>
