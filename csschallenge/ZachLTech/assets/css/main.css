@@ -1,0 +1,7 @@
+body{
+    background: oklch(14.66% 0.0484 266.71);
+}
+
+*{
+    color: aliceblue;
+}
