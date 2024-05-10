@@ -1,0 +1,22 @@
+body{
+  background: oklch(14.66% 0.0484 266.71);
+}
+*{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: aliceblue;
+  z-index: 1;
+}
+section{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+li{
+  padding-left: 5px;
+  padding-right: 5px;
+}

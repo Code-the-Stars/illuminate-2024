@@ -1,7 +1,4 @@
-body{
-    background: oklch(14.66% 0.0484 266.71);
-}
-
-*{
-    color: aliceblue;
+#hero{
+    background: oklch(12% 0.0484 266.71);
+    height: 85vh;
 }

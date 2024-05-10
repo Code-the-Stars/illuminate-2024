@@ -5,25 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Illuminate - Virtual Hackathon for High-Schoolers</title>
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/defaults.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="assets/js/main.js" defer></script>
 </head>
 <body>
     <header>
-        <nav>
-            <img id="Logo" src="assets/images/Illuminate.svg" width="40px" height="40px" alt="Logo" >
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#schedule">Schedule</a></li>
-                <li><a href="#register">Register</a></li>
+        <nav class="flex justify-between px-5 py-2">
+            <div class="flex items-center gap-5">
+                <img id="Logo" src="assets/static/Illuminate.svg" width="40px" height="40px" alt="Logo" >
+                <h1 class="poetsen">Illuminate</h1>
+            </div>
+            <ul class="flex items-center border-2 border-white rounded">
+                <li class="border-r-2 border-r-white"><a href="#about">About</a></li>
+                <li class="border-r-2 border-r-white"><a href="#schedule">Schedule</a></li>
+                <li class="border-r-2 border-r-white"><a href="#register">Register</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
-        <h1>Illuminate</h1>
-       
 
     <main>
+        <section id="hero">
+            <img width="900" height="900" src="assets/static/Illuminate.svg" alt="" class="drop-shadow-xl brightness-50 absolute z-0 -translate-y-10 translate-x-1">
+            <div class="flex flex-col gap-5 justify-center items-center">
+                <h1 class="poetsen text-7xl">Illuminate</h1>
+                <p class="text-lg text-center max-w-[500px]">A virtual hackathon designed for high-schoolers to showcase their coding skills and creativity</p>
+                <div class="flex gap-2">
+                    <a href="" class="flex justify-center items-center w-24 h-10 bg-black rounded-xl transition-all hover:-translate-y-1">Join Now</a>
+                    <a href="#about" class="flex justify-center items-center w-24 h-10 bg-[rgba(0,0,0,0.3)] border-2 border-black rounded-xl transition-all hover:-translate-y-1">More Info</a>
+                </div>
+            </div>
+        </section>
         <section id="about">
             <h2>About Illuminate</h2>
             <p>Welcome to Illuminate, a virtual hackathon designed for high-schoolers to showcase their coding skills and creativity. Join us for an exciting weekend of coding challenges, workshops, and networking opportunities.</p>
