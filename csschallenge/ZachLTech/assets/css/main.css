@@ -1,4 +1,14 @@
 #hero{
-    background: oklch(12% 0.0484 266.71);
-    height: 85vh;
+    /* background: oklch(12% 0.0484 266.71); */
+    background: url(../static/waves.svg);
+    height: 820px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #hero{
+        /* background: oklch(12% 0.0484 266.71); */
+        background: #010418;
+        height: 820px;
+    }
 }
