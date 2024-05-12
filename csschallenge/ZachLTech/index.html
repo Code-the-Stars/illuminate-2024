@@ -11,6 +11,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="assets/js/main.js" defer></script>
     <script src="assets/js/scroll.js" defer></script>
+    <script src="assets/js/accordian.js" defer></script>
 </head>
 <body>
     <header>
@@ -44,7 +45,7 @@
         </section>
 
         <section id="about" class="flex flex-col justify-center items-center p-32 gap-[70px] wrap">
-            <p class="max-w-[900px] text-center text-xl">Illuminate is a hackathon tailored for high school students to showcase their coding skills and creative ideas. Hosted by Code the Stars, get ready for a weekend packed with engaging coding tasks, informative workshops and great opportunities to network. Come be a part of an event where you can express your imagination and interact with students, from various parts of the world.</p>
+            <p class="max-w-[950px] leading-loose text-center text-xl">Illuminate is a hackathon tailored for high school students to showcase their coding skills and creative ideas. Hosted by Code the Stars, get ready for a weekend packed with engaging coding tasks, informative workshops and great opportunities to network. Come be a part of an event where you can express your imagination and interact with students, from various parts of the world.</p>
             <div class="flex wrap p-5 gap-6">
                 <div class="max-w-sm rounded-lg shadow bg-[#060A2C]">
                     <img class="rounded-t-lg w-[920px] h-[260px]" src="assets/static/coding-in-the-classroom.png" alt="" />
@@ -75,9 +76,20 @@
             </div>
         </section>
 
-        <section id="schedule">
-            <h2>Schedule</h2>
-            <p>Coming Soon! The event starts at 6:00 pm on Friday, June 7th, and ends at 12:00 pm on Sunday, June 9th. All times are EST.</p>
+        <section id="schedule" class="overflow-hidden flex justify-center items-center">
+            <div class="absolute w-[120%] h-12 bg-yellow-500 rotate-12 border-4 border-black flex items-center px-12 justify-between">
+                <p class="text-black text-5xl font-semibold text-clip">COMING SOON&emsp;COMING SOON</p>
+                <p class="text-black text-5xl font-semibold text-clip">COMING SOON&emsp;COMING SOON</p>
+            </div>
+            <div class="absolute w-[120%] h-12 bg-yellow-500 -rotate-12 border-4 border-black flex items-center px-12 justify-between">
+                <p class="text-black text-5xl font-semibold text-clip">COMING SOON&emsp;COMING SOON</p>
+                <p class="text-black text-5xl font-semibold text-clip">COMING SOON&emsp;COMING SOON</p>
+            </div>
+            <div class="w-auto p-8 flex flex-col bg-[#060A2C] rounded-xl gap-3 border-4 border-black">
+                <h2 class="text-5xl font-bold">Schedule</h2>
+                <p class="max-w-md">Coming Soon! The event starts at 6:00 pm on Friday, June 7th, and ends at 12:00 pm on Sunday, June 9th. All times are EST.</p>
+            </div>
+            
             <ul>
                <!--insert schedule pic Here! - example below
                 <li>Friday, 6:00 PM - Opening Ceremony</li>
@@ -88,23 +100,52 @@
                 <li>Sunday, 12:00 PM - Closing Ceremony</li> -->
             </ul>
         </section>
+        
+        <section id="faq" class="flex flex-col gap-8 justify-center items-center h-[80vh]">
+            <p class="font-bold text-5xl">FAQ</p>
+            <div class="flex flex-col w-[700px] ">
+                <button class="accordion rounded-t-3xl text-xl border-b-2 border-b-[#010418]">Does this cost money?</button>
+                <div class="panel border-t-2 border-t-[#010418] border-b-2 border-b-[#010418]">
+                    <p class="p-4">Nope! This is a completely free event where you can learn, code, meet new people, and compete for prizes.</p>
+                </div>
+    
+                <button class="accordion text-xl border-b-2 border-b-[#010418]">Hackathon?? Will I be doing illegal hacking?!</button>
+                <div class="panel border-t-2 border-t-[#010418] border-b-2 border-b-[#010418]">
+                    <p class="p-4">Nope! The term "hacking" in this case means creating a project with code, hence the term "hackathon".</p>
+                </div>
+    
+                <button class="accordion text-xl border-b-2 border-b-[#010418]">How do I join?</button>
+                <div class="panel border-t-2 border-t-[#010418] border-b-2 border-b-[#010418]">
+                    <p class="p-4">Simply follow <a href="https://codethestars.fillout.com/illuminatesignup" class="underline">THIS</a> link and fill out the form. Then you should recieve an email confirming your registration!</p>
+                </div>
 
-        <section id="faq">
-            
-                
-        </section>
+                <button class="accordion text-xl border-b-2 border-b-[#010418]">Is there a Discord server?</button>
+                <div class="panel border-t-2 border-t-[#010418] border-b-2 border-b-[#010418]">
+                    <p class="p-4">Yes! If you haven't already, register <a href="https://codethestars.fillout.com/illuminatesignup" class="underline">HERE</a> and you'll receive an email with the discord server link. This is where the entire hackathon will be hosted.</p>
+                </div>
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>If you have any questions or need further information, feel free to reach out to us:</p>
-                <a href="mailto:shayan@codethestars.org" id="email">Shayan@codethestars.org</a>
-            <p>If you are registered for the hackathon, you will get an invite to a discord server. This is where the entire hackathon will be hosted. </p>
-                <p>The lack of css is intentional. We want YOU to help make this website! Click <a href="https://github.com/Code-the-Stars/illuminate">HERE</a> to go to the Github Page.</p>
+                <button class="accordion text-xl border-b-2 border-b-[#010418]">How can I contact whoever runs this event?</button>
+                <div class="panel border-t-2 border-t-[#010418] border-b-2 border-b-[#010418]">
+                    <p class="p-4">This event is run by <a href="https://github.com/Code-the-Stars">Code The Stars</a>, and if you have any questions or need further information, feel free to reach out to us at this email: </p>
+                </div>
+
+                <button class="accordion text-xl">Where is this event run?</button>
+                <div class="panel border-t-2 border-t-[#010418] border-b-2 border-b-[#010418] rounded-b-3xl">
+                    <p class="p-4">The event will be run in our discord server</p>
+                </div>
+            </div>
         </section>
     </main>
 
-    <footer>
+    <footer class="px-8 py-8 bg-black flex justify-between items-center mt-12">
+        <div class="flex flex-col gap-1 w-[300px]">
+            <p>Contact: <a class="underline" href="mailto:shayan@codethestars.org" id="email">Shayan@codethestars.org</a></p>
+            <p>Join this Hackathon: <a class="underline" href="https://codethestars.fillout.com/illuminatesignup">Register</a></p>
+            <p>Edit this website: <a class="underline" href="https://github.com/Code-the-Stars/illuminate">Github</a></p>
+        </div>
         <p>&copy; 2024 Code the Stars. This project falls under the MIT License!</p>
+        <p class="w-[300px] text-right">Website made with ❤️ by <a class="underline" href="https://zachl.space">ZachLTech</a></p>
     </footer>
+    <div id="contact"></div>
 </body>
 </html>

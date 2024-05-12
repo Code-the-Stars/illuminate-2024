@@ -4,6 +4,26 @@
     height: 820px;
 }
 
+.accordion {
+    background-color: #060A2C;
+    color: aliceblue;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    transition: 150ms;
+}
+  
+
+.active, .accordion:hover {
+    background-color: #050825; 
+}
+  
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: #060A2C;
+    overflow: hidden;
+}
 
 @media only screen and (max-width: 600px) {
     #hero{
