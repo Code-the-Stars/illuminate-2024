@@ -19,7 +19,7 @@
                 <img id="Logo" src="assets/static/Illuminate.svg" width="40px" height="40px" alt="Logo" class="select none" >
                 <h1 class="poetsen select-none">Illuminate</h1>
             </a>
-            <ul class="flex gap-2 items-center rounded">
+            <ul class="flex gap-2 items-center rounded"> 
                 <li><a onclick="sscroll('#hero')">Home</a></li>
                 <li><a onclick="sscroll('#about')">About</a></li>
                 <li><a onclick="sscroll('#schedule')">Schedule</a></li>
@@ -38,17 +38,40 @@
                 <p class="text-lg text-center max-w-[500px]">A virtual hackathon designed for high-schoolers to showcase their coding skills and creativity</p>
                 <div class="flex gap-2">
                     <a href="https://codethestars.fillout.com/illuminatesignup" class="flex justify-center items-center w-24 h-10 bg-black rounded-xl transition-all hover:-translate-y-1">Join Now</a>
-                    <a href="#about" class="flex justify-center items-center w-24 h-10 bg-[rgba(0,0,0,0.3)] border-2 border-black rounded-xl transition-all hover:-translate-y-1">More Info</a>
+                    <a onclick="sscroll('#about')" class="flex justify-center items-center w-24 h-10 bg-[rgba(0,0,0,0.3)] border-2 border-black rounded-xl transition-all hover:-translate-y-1">More Info</a>
                 </div>
             </div>
         </section>
 
-        <section id="about" class="flex justify-center items-center p-32 gap-[200px] wrap">
-            <img src="assets/static/CTS.png" alt="">
-            <div class="flex justify-center items-center flex-col gap-5">
-                <h2 class="text-4xl font-bold">About Illuminate</h2>
-                <div class="w-[550px] h-1 bg-slate-500 rounded"></div>
-                <p class="max-w-[600px] text-center">Welcome to Illuminate, a virtual hackathon designed for high-schoolers to showcase their coding skills and creativity. Created and hosted by Code the Stars, join us for an exciting weekend of coding challenges, workshops, and networking opportunities. </p>
+        <section id="about" class="flex flex-col justify-center items-center p-32 gap-[70px] wrap">
+            <p class="max-w-[900px] text-center text-xl">Illuminate is a hackathon tailored for high school students to showcase their coding skills and creative ideas. Hosted by Code the Stars, get ready for a weekend packed with engaging coding tasks, informative workshops and great opportunities to network. Come be a part of an event where you can express your imagination and interact with students, from various parts of the world.</p>
+            <div class="flex wrap p-5 gap-6">
+                <div class="max-w-sm rounded-lg shadow bg-[#060A2C]">
+                    <img class="rounded-t-lg w-[920px] h-[260px]" src="assets/static/coding-in-the-classroom.png" alt="" />
+                    <div class="p-5">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white text-center">Coding Challenges</h5>
+                        <div class="w-auto mb-4 h-[2px] bg-slate-300 rounded"></div>
+                        <p class="mb-3 font-normal text-lg text-gray-400 text-center">Throughout this hackathon, you're invited to participate in a few coding challenges which are to be announced throughout the event.</p>
+                    </div>
+                </div>
+
+                <div class="max-w-sm rounded-lg shadow bg-[#060A2C]">
+                    <img class="rounded-t-lg w-[920px] h-[260px]" src="assets/static/workshop.png" alt="" />
+                    <div class="p-5">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white text-center">Speaker Workshops</h5>
+                        <div class="w-auto mb-4 h-[2px] bg-slate-300 rounded"></div>
+                        <p class="mb-3 font-normal text-lg text-gray-400 text-center">Join us during our special workshops where guest speakers will guide participants through fun and educational activities</p>
+                    </div>
+                </div>
+
+                <div class="max-w-sm rounded-lg shadow bg-[#060A2C]">
+                    <img class="rounded-t-lg w-[920px] h-[260px]" src="assets/static/network.png" alt="" />
+                    <div class="p-5">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white text-center">Networking Opportunities</h5>
+                        <div class="w-auto mb-4 h-[2px] bg-slate-300 rounded"></div>
+                        <p class="mb-3 font-normal text-lg text-gray-400 text-center">Anyone who joins will be able to network themselves via our Discord server and meet new people throughout our event</p>
+                    </div>
+                </div>
             </div>
         </section>
 
