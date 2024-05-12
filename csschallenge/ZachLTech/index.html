@@ -25,8 +25,8 @@
                 <li><a onclick="sscroll('#about')">About</a></li>
                 <li><a onclick="sscroll('#schedule')">Schedule</a></li>
                 <li><a href="https://codethestars.fillout.com/illuminatesignup">Register</a></li>
-                <li><a onclick="sscroll('#faq')">FAQ</a></li>
                 <li><a onclick="sscroll('#fun')">Challenge</a></li>
+                <li><a onclick="sscroll('#faq')">FAQ</a></li>
                 <li><a onclick="sscroll('#contact')">Contact</a></li>
             </ul>
         </nav>
@@ -48,7 +48,7 @@
         <section id="about" class="flex flex-col justify-center items-center p-32 gap-[70px] wrap">
             <p class="max-w-[950px] leading-loose text-center text-xl">Illuminate is a hackathon tailored for high school students to showcase their coding skills and creative ideas. Hosted by Code the Stars, get ready for a weekend packed with engaging coding tasks, informative workshops and great opportunities to network. Come be a part of an event where you can express your imagination and interact with students, from various parts of the world.</p>
             <div class="flex wrap p-5 gap-6">
-                <div class="max-w-sm rounded-lg shadow bg-[#060A2C]">
+                <div class="max-w-sm rounded-lg shadow bg-[#060A2C] transition-all hover:-translate-y-5">
                     <img class="rounded-t-lg w-[920px] h-[260px]" src="assets/static/coding-in-the-classroom.png" alt="" />
                     <div class="p-5">
                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-white text-center">Coding Challenges</h5>
@@ -57,7 +57,7 @@
                     </div>
                 </div>
 
-                <div class="max-w-sm rounded-lg shadow bg-[#060A2C]">
+                <div class="max-w-sm rounded-lg shadow bg-[#060A2C] transition-all hover:-translate-y-5">
                     <img class="rounded-t-lg w-[920px] h-[260px]" src="assets/static/workshop.png" alt="" />
                     <div class="p-5">
                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-white text-center">Speaker Workshops</h5>
@@ -66,7 +66,7 @@
                     </div>
                 </div>
 
-                <div class="max-w-sm rounded-lg shadow bg-[#060A2C]">
+                <div class="max-w-sm rounded-lg shadow bg-[#060A2C] transition-all hover:-translate-y-5">
                     <img class="rounded-t-lg w-[920px] h-[260px]" src="assets/static/network.png" alt="" />
                     <div class="p-5">
                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-white text-center">Networking Opportunities</h5>
@@ -102,6 +102,14 @@
             </ul>
         </section>
         
+        <section id="fun" class="flex flex-col gap-8 justify-center items-center">
+            <img width="500" src="assets/static/scream.png" alt="" class="absolute">
+            <div class="w-auto p-8 flex flex-col bg-[#060A2C]/[0.9] rounded-xl gap-3">
+                <h2 class="text-5xl font-bold">Pre-Hackathon Challenge!</h2>
+                <p class="max-w-2xl">If you're participating in this hackathon and think to yourself "hmm... what ever shall I code until this hackathon starts?" Well FEAR NOT! We challenge YOU to remake make this website! Click <a href="https://github.com/Code-the-Stars/illuminate" class="underline">HERE</a> to go to the Github Page and view more details on this challenge.</p>
+            </div>
+        </section>
+
         <section id="faq" class="flex flex-col gap-8 justify-center items-center h-[80vh]">
             <p class="font-bold text-5xl">FAQ</p>
             <div class="flex flex-col w-[700px] ">
@@ -136,14 +144,7 @@
                 </div>
             </div>
         </section>
-
-        <section id="fun" class="flex flex-col gap-8 justify-center items-center">
-            <img width="500" src="assets/static/scream.png" alt="" class="absolute">
-            <div class="w-auto p-8 flex flex-col bg-[#060A2C]/[0.9] rounded-xl gap-3">
-                <h2 class="text-5xl font-bold">Pre-Hackathon Challenge!</h2>
-                <p class="max-w-2xl">If you're participating in this hackathon and think to yourself "hmm... what ever shall I code until this hackathon starts?" Well FEAR NOT! We challenge YOU to remake make this website! Click <a href="https://github.com/Code-the-Stars/illuminate" class="underline">HERE</a> to go to the Github Page and view more details on this challenge.</p>
-            </div>
-        </section>
+        
     </main>
 
     <footer class="px-8 py-8 bg-black flex justify-between items-center mt-12">
