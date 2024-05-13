@@ -65,12 +65,15 @@ p {
     box-sizing: border-box;
 }
 nav {
+    position: fixed;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     overflow: auto;
     border-bottom: darkblue 2px solid;
+    background-color: black;
+    width: 100%;
 }
 ul li {
     position: relative;
@@ -92,9 +95,7 @@ ul li a:hover {
     color: rgb(30, 131, 131);
     text-decoration: none;
 }
-#email {
 
-}
 
 body {
     opacity: 0;
@@ -103,7 +104,7 @@ body {
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
-    overflow-y: hidden;
+    overflow-y: auto;
 }
 
 @keyframes slideIn {
@@ -135,4 +136,34 @@ body {
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
+}
+
+
+
+@keyframes glowing {
+    0% { box-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 15px #00ff00, 0 0 20px #00ff00; }
+    50% { box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00; }
+    100% { box-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 15px #00ff00, 0 0 20px #00ff00; }
+  }
+  
+  #CLICKHERE {
+    animation: glowing 2s infinite;
+}
+
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#about {
+    margin-bottom: 1000px;
 }
