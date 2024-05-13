@@ -163,9 +163,14 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    text-align: center;
     background-color: black;
     border-top: darkblue 2px solid;
+    justify-content: center;
+    display: flex;
+}
+
+footer p {
+    margin-top: 3%;
 }
 
 h1 {
@@ -257,5 +262,16 @@ h1 a {
     margin-left: 30%;
     margin-right: 30%;
     margin-bottom: 30%;
+    text-align: center;
+}
+
+#faq summary {
+    color: white;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#faq p {
     text-align: center;
 }
