@@ -6,8 +6,8 @@ body, h1, p {
 
 /* Set a background color */
 body {
-    background-color: darkblue; /* Dark blue */
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: black;
+    font-family: 'Source Code Pro', monospace;
 }
 
 /* Center the content */
@@ -28,7 +28,7 @@ h1 {
 /* Style the paragraph */
 p {
     font-size: 18px;
-    color: #666;
+    color: #ffffff;
 }
 
 /* Add some padding to the container */
@@ -39,13 +39,24 @@ html {
     margin: 0px;
     content: 0px;
     padding: auto;
-    margin-left: 50px;
-    margin-right: 50px;
     scrollbar-width: thin;
     scrollbar-color: darkblue black;
 }
+/* body h1, h2, h3, h4, h5, h6, p, a {
+    backdrop-filter: blur(2px);
+}
+*/
 h1, h2, h3, h4, h5, h6, p, a {
     color: #ffffff;
+}
+h1, h2, h3, h4, h5, h6{
+    color: #ffffff;
+    text-align: center;
+}
+
+p {
+    margin-left: 120px;
+    margin-right: 120px;
 }
 
 * {
@@ -57,10 +68,9 @@ nav {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    /* background-color: rgba(255, 255, 255, 0.7);  Semi-transparent white */
     justify-content: space-between;
     overflow: auto;
-    backdrop-filter: blur(10px); /* Apply blur */
+    border-bottom: darkblue 2px solid;
 }
 ul li {
     position: relative;
@@ -73,7 +83,7 @@ ul li {
 ul li a {
     text-decoration: none; 
     cursor: pointer;
-    color: rgb(0, 0, 0);
+    color: white;
 }
 ul li a:hover {
     background-color: rgb(129, 123, 123);
@@ -83,13 +93,17 @@ ul li a:hover {
     text-decoration: none;
 }
 #email {
-    text-decoration: none;
+
 }
 
 body {
     opacity: 0;
     transition: opacity 2s ease-in-out;
     animation: slideIn 2s forwards;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 @keyframes slideIn {
@@ -101,4 +115,24 @@ body {
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+#video-background {
+    position: fixed;
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    z-index: -100;
+    background-size: cover;
+}
+
+#video-background video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
 }
