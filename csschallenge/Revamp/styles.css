@@ -164,6 +164,10 @@ footer {
 }
 
 h1 {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-weight: bold;
     font-style: italic;
@@ -176,15 +180,14 @@ h1 {
     transform: translate(-50%, -50%);
     width: 50%;
     height: 50%;
-    background: url('assets/Illuminate.svg') no-repeat center center;
+    background: radial-gradient(circle at center, rgba(0, 0, 0, 0.6) 5%, rgba(0, 0, 0, 0) 100%), url('assets/Illuminate.svg') no-repeat center center;
     background-size: contain;
     z-index: -1;
 }
-
 p {
     margin-left: 120px;
     margin-right: 120px;
-    color: grey;
+    color: white;
 }
 
 
@@ -199,9 +202,13 @@ p {
     margin-bottom: 30%;
 }
 
-#schedule {
-    
+h2, h3, h4, h5, h6 {
+    color: darkblue;
 }
+ 
 #schedule p {
     margin-top: 1%;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 30%;
 }
