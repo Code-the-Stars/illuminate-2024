@@ -1,0 +1,55 @@
+#hero{
+    /* background: oklch(12% 0.0484 266.71); */
+    background: url(../static/waves.svg);
+    height: 820px;
+}
+
+.accordion {
+    background-color: #060A2C;
+    color: aliceblue;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    transition: 150ms;
+}
+
+.menu {
+    background-color: transparent;
+    color: aliceblue;
+    cursor: pointer;
+    padding: 18px;
+    width: auto;
+    transition: 150ms;
+}
+.menu-list {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    transform: translate(-48vw, 50px);
+}
+
+
+.active, .accordion:hover {
+    background-color: #050825; 
+}
+  
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: #060A2C;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+    #hero{
+        /* background: oklch(12% 0.0484 266.71); */
+        background: #010418;
+    }
+    .accordion {
+        padding: 18px;
+        width: 90vw;
+    }
+    .panel {
+        width: 90vw;
+    }
+}
