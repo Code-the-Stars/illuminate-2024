@@ -11,11 +11,11 @@
 </head>
 
 <body class="circuit-bg flex flex-col min-h-screen">
-    <header class="bg-gradient-to-r from-rose-700 to-blue-700 text-white">
+    <header class="bg-gradient-to-r from-blue-900 to-zinc-400 text-white">
         <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
             <!-- Logo on the left -->
             <div class="w-1/4 max-w-xs flex-shrink-0">
-                
+                <img id="Logo" src="/Illuminate.png" width="40px" height="40px" alt="Logo" >
             </div>
 
             <!-- Links on the right -->
@@ -30,77 +30,88 @@
         </div>
     </header>
 
-    <h1>Illuminate</h1>
-
     <main class="flex-grow">
         <div class="bg-transparent py-10">
             <div class="container mx-auto px-4">
                 <div class="flex flex-col md:flex-row justify-center items-center md:space-x-6">
                     <!-- Text Section -->
+                    <div class="md:w-1/2 p-4 bg-white border-2 border-gray-300 rounded-lg shadow-lg">
+                        <div class="text-center text-2xl font-bold">
+                            Illuminate
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="flex flex-col md:flex-row justify-center items-center md:space-x-6">
+                    <!-- Text Section -->
                     <div class="md:w-3/4 p-4 bg-white border-2 border-gray-300 rounded-lg shadow-lg">
-                        <p class="text-xl font-sans m-4">
-                            <section id="about">
-                                <h2>About Illuminate</h2>
-                                <p>Welcome to Illuminate, a virtual hackathon designed for high-schoolers to showcase their coding skills and creativity. Join us for an exciting weekend of coding challenges, workshops, and networking opportunities.</p>
-                            </section>
-                        </p>
+                        <div class="text-center text-2xl font-bold">
+                            About Illuminate
+                        </div>
+                        <section id="about" class="text-xl font-sans m-4">
+                            <p>Welcome to Illuminate, a virtual hackathon designed for high-schoolers to showcase their coding skills and creativity. Join us for an exciting weekend of coding challenges, workshops, and networking opportunities.</p>
+                        </section>
                     </div>
                 </div>
                 <br>
                 <div class="flex flex-col md:flex-row justify-center items-center md:space-x-6">
                     <!-- Certs Section -->
-                    <div class="md:w-1/2 p-4 bg-white border-2 border-gray-300 rounded-lg shadow-lg">
-                        <div class="text-center text-2xl">
-                            <h2>Schedule</h2>
-                        </div>
-                        <p class="text-xl font-sans m-4">
-                            <section id="schedule">
-                                <p>Coming Soon! The event starts at 6:00 pm on Friday, June 7th, and ends at 12:00 pm on Sunday, June 9th. All times are EST.</p>
-                                <ul>
-                                    <li><span class="time">Friday, 6:00 PM</span> - Opening Ceremony</li>
-                                    <li><span class="time">Friday, 7:00 PM</span> - Coding Challenge #1</li>
-                                    <li><span class="time">Saturday, 10:00 AM</span> - Workshop: Web Development</li>
-                                    <li><span class="time">Saturday, 1:00 PM</span> - Coding Challenge #2</li>
-                                    <li><span class="time">Sunday, 9:00 AM</span> - Workshop: Mobile App Development</li>
-                                    <li><span class="time">Sunday, 12:00 PM</span> - Closing Ceremony</li>
-                                </ul>
-                            </section>
-                        </p>
+                    <div class="md:w-3/4 p-4 bg-white border-2 border-gray-300 rounded-lg shadow-lg">
+                        <section id="schedule">
+                            <div class="text-center text-2xl font-bold">
+                                Schedule
+                            </div>
+                            <p class="text-lg font-sans m-4 text-center">
+                                Coming Soon! The event starts at 6:00 pm on Friday, June 7th, and ends at 12:00 pm on Sunday, June 9th. All times are EST.
+                                <div class="flex flex-col md:flex-row justify-center items-center md:space-x-6">
+                                    <!-- Certs Section -->
+                                    <div class="md:w-1/2 p-4 bg-white">
+                                        <span class="font-semibold">Friday, 6:00 PM</span> - <span class="italic">Opening Ceremony</span><br>
+                                        <span class="font-semibold">Friday, 7:00 PM</span> - <span class="italic">Coding Challenge #1</span><br>
+                                        <span class="font-semibold">Saturday, 10:00 AM</span> - <span class="italic">Workshop: Web Development</span><br>
+                                    </div>
+                                    <div class="md:w-1/2 p-4 bg-white">
+                                        <span class="font-semibold">Saturday, 1:00 PM</span> - <span class="italic">Coding Challenge #2</span><br>
+                                        <span class="font-semibold">Sunday, 9:00 AM</span> - <span class="italic">Workshop: Mobile App Development</span><br>
+                                        <span class="font-semibold">Sunday, 12:00 PM</span> - <span class="italic">Closing Ceremony</span><br>
+                                    </div>
+                                </div>
+                            </p>
+                        </section>
                     </div>
-                    <!-- Skills Section -->
-                    <div class="md:w-1/2 p-4 bg-white border-2 border-gray-300 rounded-lg shadow-lg">
-                        <div class="text-center text-2xl">
-                            <h2>Register</h2>
+                </div>
+                <br>
+                <div class="flex flex-col md:flex-row justify-center items-center md:space-x-6">
+                    <!-- Certs Section -->
+                    <div class="md:w-3/4 p-4 bg-white border-2 border-gray-300 rounded-lg shadow-lg">
+                        <div class="text-center text-2xl font-bold">
+                            Register
                         </div>
-                        <p class="text-xl font-sans m-4 text-center">
-                            <section id="register">
-                                <p>Ready to join Illuminate? Click <a href="https://codethestars.fillout.com/illuminatesignup" id="CLICKHERE">here!</a></p>
-                            </section>
-                        </p>
+                        <section id="register">
+                            <p class="text-xl font-sans m-4 text-center">Ready to join Illuminate? <a href="https://codethestars.fillout.com/illuminatesignup" id="CLICKHERE" class="hover:underline">Click here!</a></p>
+                        </section>
                     </div>
                 </div>
                 <br>
                 <div class="flex flex-col md:flex-row justify-center items-center md:space-x-6">
                     <!-- Opinions -->
-                    <div class="md:w-1/2 p-4 bg-white border-2 border-gray-300 rounded-lg shadow-lg">
-                        <div class="text-center text-2xl">
-                            <h2>Contact</h2>
+                    <div class="md:w-3/4 p-4 bg-white border-2 border-gray-300 rounded-lg shadow-lg">
+                        <div class="text-center text-2xl font-bold">
+                            Contact
                         </div>
-                        <p class="text-xl font-sans m-4">
-                            <section id="contact">
-                                <p>If you have any questions or need further information, feel free to reach out to us:</p>
-                                    <a href="mailto:shayan@codethestars.org" id="email">Shayan@codethestars.org</a>
-                                <p>If you are registered for the hackathon, you will get an invite to a discord server. This is where the entire hackathon will be hosted. </p>
-                                    <p>The lack of css is intentional. We want YOU to help make this website! Click <a href="https://github.com/Code-the-Stars/illuminate">HERE</a> to go to the Github Page.</p>
-                            </section>
-                        </p>
+                        <section id="contact" class="text-lg font-sans m-4">
+                            If you have any questions or need further information, feel free to reach out to us:<br>
+                            <a href="mailto:shayan@codethestars.org" id="email" class="hover:underline">Shayan@codethestars.org</a><br>
+                            If you are registered for the hackathon, you will get an invite to a discord server. This is where the entire hackathon will be hosted.<br>
+                            The lack of css is intentional. We want YOU to help make this website! <a href="https://github.com/Code-the-Stars/illuminate" class="hover:underline">Click HERE</a> to go to the Github Page.
+                        </section>
                     </div>
                 </div>
             </div>
         </div>
     </main>
 
-    <footer class="bg-gradient-to-r from-blue-700 to-rose-700 text-white text-center py-6">
+    <footer class="bg-gradient-to-r from-zinc-400 to-blue-900 text-white text-center py-6">
         <div class="max-w-6xl mx-auto px-4">
             <div class="flex justify-center space-x-6">
                 <p>&copy; 2024 Code the Stars. This project falls under the MIT License!</p>
