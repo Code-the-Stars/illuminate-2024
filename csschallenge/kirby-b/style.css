@@ -63,6 +63,7 @@ ul li {
     display: inline-block;
     padding: 14px;
     font-size: 17px;
+    color: white;
 }
 ul li a{
 text-decoration: none; 
@@ -105,4 +106,5 @@ footer{
 }
 .time{
     font-weight: bold;
+    color: white;
 }
