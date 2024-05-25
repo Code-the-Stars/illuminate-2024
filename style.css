@@ -43,39 +43,39 @@ h1, h2, h3, h4, h5, h6, p, a {
     color: #272963;
 }
 
-  * {
+    * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  nav {
+    }
+    nav {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     background-color: #ffffff;
     justify-content: space-between;
     overflow: auto;
-  }
-  ul li {
+    }
+    ul li {
     position: relative;
     margin: 0 20px;
     list-style: none;
     display: inline-block;
     padding: 14px;
     font-size: 17px;
-  }
-  ul li a{
-  text-decoration: none; 
-  cursor: pointer;
-  color: rgb(0, 0, 0);
-  }
-  ul li a:hover {
-     background-color: rgb(129, 123, 123);
-  }
-  #CLICKHERE {
+    }
+    ul li a{
+    text-decoration: none; 
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    }
+    ul li a:hover {
+        background-color: rgb(129, 123, 123);
+    }
+    #CLICKHERE {
     color: rgb(30, 131, 131);
     text-decoration: none;
-  }
-  #email {
+    }
+    #email {
     text-decoration: none;
-  }
+    }
