@@ -1,0 +1,279 @@
+/* Reset default browser styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color */
+body {
+    background-color: black;
+    font-family: 'Source Code Pro', monospace;
+}
+
+/* Center the content */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style the heading */
+h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style the paragraph */
+p {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+/* Add some padding to the container */
+.container {
+    padding: 20px;
+}
+html {
+    margin: 0px;
+    content: 0px;
+    padding: auto;
+    scrollbar-width: thin;
+    scrollbar-color: darkblue black;
+}
+/* body h1, h2, h3, h4, h5, h6, p, a {
+    backdrop-filter: blur(2px);
+}
+*/
+h1, h2, h3, h4, h5, h6, p, a {
+    color: #ffffff;
+}
+h1, h2, h3, h4, h5, h6{
+    color: #ffffff;
+    text-align: center;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ nav {
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    overflow: auto;
+    border-bottom: darkblue 2px solid;
+    background-color: black;
+    width: 100%;
+} 
+
+ul li {
+    position: relative;
+    margin: 0 20px;
+    list-style: none;
+    display: inline-block;
+    padding: 14px;
+    font-size: 17px;
+}
+ul li a {
+    text-decoration: none; 
+    cursor: pointer;
+    color: white;
+}
+
+#CLICKHERE {
+    color: rgb(30, 131, 131);
+    text-decoration: none;
+}
+
+
+body {
+    opacity: 1;
+    transition: opacity 2s ease-in-out;
+    animation: slideIn 2s forwards;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#video-background {
+    position: fixed;
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    z-index: -100;
+    background-size: cover;
+}
+
+#video-background video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    z-index: -100;
+}
+
+#video-background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+@keyframes glowing {
+    0% { box-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 15px #00ff00, 0 0 20px #00ff00; }
+    50% { box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00; }
+    100% { box-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 15px #00ff00, 0 0 20px #00ff00; }
+  }
+  
+  #CLICKHERE {
+    animation: glowing 2s infinite;
+}
+
+footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    border-top: darkblue 2px solid;
+    justify-content: center;
+    display: flex;
+    margin-top: 3%;
+}
+
+footer p {
+    margin-top: 1%;
+}
+
+h1 {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#svg-background {
+    position: fixed;
+    top: 50%;
+    left: 50.35%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 50%;
+    background: radial-gradient(circle at center, rgba(0, 0, 0, 0.6) 5%, rgba(0, 0, 0, 0) 50%), url('assets/Illuminate.svg') no-repeat center center;
+    background-size: contain;
+    z-index: -1;
+}
+p {
+    margin-left: 120px;
+    margin-right: 120px;
+    color: white;
+}
+
+
+#greet {
+    margin-top: 10%;
+}
+
+#greet p {
+    margin-top: 1%;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 20%;
+}
+
+#about p {
+    margin-top: 1%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 20%;
+}
+
+h2, h3, h4, h5, h6 {
+    color: #0b4e6a;
+}
+ 
+#schedule p {
+    margin-top: 1%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 0%;
+    text-align: center;
+}
+
+h1 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#countdown {
+    color: #0f0;
+}
+
+#register {
+    margin-top: 25%;
+}
+
+#register p {
+    margin-top: 1%;
+    text-align: center;
+    margin-bottom: 20%;
+}
+
+#contact p {
+    margin-top: 1%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 20%;
+    text-align: center;
+}
+
+#challenge p {
+    margin-top: 1%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 20%;
+    text-align: center;
+}
+
+#faq summary {
+    color: white;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#faq p {
+    text-align: center;
+}
