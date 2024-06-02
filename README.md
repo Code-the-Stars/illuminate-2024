@@ -1,9 +1,10 @@
 <h3 align="center">
 <img src="./assets/static/Illuminate.svg" alt="Logo" width="350"/>
-  <br>
-<strong><a href="https://illuminate-coral.vercel.app/">Illuminate</a> is a virtual hackathon taking place on June 7th to June 9th for high-schoolers!</strong>
 </h3>
 <br>
+
+# [Illuminate](https://illuminate-coral.vercel.app/)
+A virtual hackathon taking place on June 7th to June 9th for high-schoolers!
 
 ## How To Work on the CSS
 We want the community to work on the CSS to show what they know! Make a fork of this repo, add a folder in the folder 'csschallenge', copy the starter code (code.md), and code! Once you are done, make a pull request! If the code looks good, it will get approved and become a part of the website and you will be added to our credits list! 
