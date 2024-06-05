@@ -21,7 +21,7 @@
             },
             copywriteMessage: {
                 type: String,
-                default: '&copy; <YEAR> ORGANIZATION. This project falls under <LICENSE> OR All Rights Reserved.'
+                default: '© <YEAR> <ORGANIZATION>. This project falls under <LICENSE> OR All Rights Reserved.'
             }
         }
     }

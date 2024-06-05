@@ -33,7 +33,7 @@
                 <li class="m-1 mt-2"><NuxtLink @click="scrollToAnchor('hero')">Home</NuxtLink></li>
                 <li class="m-1"><NuxtLink @click="scrollToAnchor('about')">About</NuxtLink></li>
                 <li class="m-1"><NuxtLink @click="scrollToAnchor('schedule')">Schedule</NuxtLink></li>
-                <li class="m-1"><NuxtLink :href="`https://codethestars.fillout.com/illuminatesignup`" class="bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text">Register</NuxtLink></li>
+                <li class="m-1"><NuxtLink :href="signupPage" class="bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text">Register</NuxtLink></li>
                 <li v-if="challenge == true" class="m-1"><NuxtLink @click="scrollToAnchor('fun')">Challenge</NuxtLink></li>
                 <li class="m-1"><NuxtLink @click="scrollToAnchor('faq')">FAQ</NuxtLink></li>
                 <li class="m-1 mb-2"><NuxtLink @click="scrollToAnchor('contact')">Contact</NuxtLink></li>
@@ -43,7 +43,7 @@
             <li><NuxtLink @click="scrollToAnchor('hero')">Home</NuxtLink></li>
             <li><NuxtLink @click="scrollToAnchor('about')">About</NuxtLink></li>
             <li><NuxtLink @click="scrollToAnchor('schedule')">Schedule</NuxtLink></li>
-            <li><NuxtLink class="bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text" href="https://codethestars.fillout.com/illuminatesignup" target="_blank">Register</NuxtLink></li>
+            <li><NuxtLink class="bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text" :href="signupPage">Register</NuxtLink></li>
             <li v-if="challenge == true"><NuxtLink @click="scrollToAnchor('fun')">Challenge</NuxtLink></li>
             <li><NuxtLink @click="scrollToAnchor('faq')">FAQ</NuxtLink></li>
             <li><NuxtLink @click="scrollToAnchor('contact')">Contact</NuxtLink></li>
@@ -65,6 +65,10 @@
             challenge: {
                 type: Boolean,
                 defalut: false
+            },
+            signupPage: {
+                type: String,
+                default: 'https://fillout.com'
             }
         }
     }

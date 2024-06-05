@@ -32,7 +32,7 @@ body{
     font-style: normal;
     color: aliceblue;
     z-index: 1;
-    user-select: none;
+    /*user-select: none;*/
 }
 
 section{
@@ -88,7 +88,6 @@ a{
 
 .panel {
     padding: 0 18px;
-    display: none;
     background-color: #060A2C;
     overflow: hidden;
 }
