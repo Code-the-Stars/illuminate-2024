@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Illuminate - Virtual Hackathon for High-Schoolers</title>
+    <meta content="Illuminate - Virtual Hackathon for High-Schoolers" property="og:title" />
+    <meta name="author" content="Code the Stars">
+    <meta name="application-name" content="Illuminate">
+    <meta name="description" content="Illuminate is a hackathon tailored for high school students to showcase their coding skills and creative ideas. Join for free and compete for prizes!">
+    <meta content="Illuminate is a hackathon tailored for high school students to showcase their coding skills and creative ideas. Join for free and compete for prizes!" property="og:description" />
+    <meta content="https://illuminate-coral.vercel.app/" property="og:url" />
+    <meta content="../assets/static/Illuminate.svg" property="og:image" />
+    <meta content="#010418" data-react-helmet="true" name="theme-color" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/fonts.css">
+    <link rel="stylesheet" href="../assets/css/defaults.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="../assets/js/scroll.js" defer></script>
+    <script src="../assets/js/accordian.js" defer></script>
+    <script src="../assets/js/menu.js" defer></script>
+</head>
+<body><div class="overflow-x-hidden">
+    <header>
+        <nav class="w-screen flex justify-between px-2 sm:px-8 py-2 items-center fixed backdrop-blur-sm z-10">
+            <a onclick="sscroll('#hero')" class="flex items-center gap-2">
+                <img id="Logo" src="../assets/static/Illuminate.svg" width="40px" height="40px" alt="Logo" class="select none" >
+                <h1 class="poetsen select-none">Illuminate</h1>
+            </a>
+            <div class="flex flex-col sm:hidden">
+                <button class="menu">
+                    <img width="25" src="../assets/static/menu.svg" alt="">
+                </button>
+                <ul onclick="this.style.display = 'none'" class="menu-list absolute bg-[#060A2C] rounded text-center">
+                    <li class="m-1 mt-2"><a onclick="sscroll('#hero')">Home</a></li>
+                    <li class="m-1"><a onclick="sscroll('#about')">About</a></li>
+                    <li class="m-1"><a class="bg-gradient-to-r from-green-400 to-green-700 inline-block text-transparent bg-clip-text" href="pages/projects.html" target="_blank">Github</a></li>
+                    <li class="m-1 mb-2"><a onclick="sscroll('#contact')">Contact</a></li>
+                </ul>
+            </div>
+            <ul class="hidden sm:flex gap-2 items-center rounded"> 
+                <li><a onclick="sscroll('#hero')">Home</a></li>
+                <li><a onclick="sscroll('#about')">About</a></li>
+                <li class="m-1"><a class="bg-gradient-to-r from-green-400 to-green-700 inline-block text-transparent bg-clip-text" href="pages/projects.html" target="_blank">Github</a></li>
+                <li><a onclick="sscroll('#contact')">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="leaderboard" class="h-[100vh] flex flex-col justify-center items-center gap-8">
+            <div class="absolute h-full w-full"></div>
+            <div class="flex justify-center items-end h-[50vh] w-full">
+                <div class="flex flex-col justify-center items-center onload2 border-b-2 border-b-white w-[30vw] overflow-hidden">
+                    <div class="w-[25vw] h-[36vh] flex justify-center items-center border-2 border-b-0 border-white transition-all translate-y-24 hover:translate-y-0">
+                        <p>2</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col justify-center items-center onload1 border-b-2 border-b-white w-[30vw] overflow-hidden -translate-y-16">
+                    <div class="w-[25vw] h-[36vh] flex justify-center items-center border-2 border-b-0 border-white transition-all translate-y-24 hover:translate-y-0">
+                        <p>2</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col justify-center items-center onload3 border-b-2 border-b-white w-[30vw] overflow-hidden">
+                    <div class="w-[25vw] h-[36vh] flex justify-center items-center border-2 border-b-0 border-white transition-all translate-y-24 hover:translate-y-0">
+                        <p>2</p>
+                    </div>
+                </div>
+            </div>
+            <h1 class="flex justify-center items-center h-[20vh] w-full text-8xl font-bold">
+                Illuminate Winners!
+            </h1>
+            <div class="flex justify-center items-center h-[20vh] w-full text-8xl">
+                <div class="flex justify-between items-center px-16 w-full h-[80%] border-t-2 border-b-2 border-t-white border-b-white">
+                    <div class="w-24 h-24 flex justify-center items-center">
+                        <img src="" alt="">
+                        <p class="absolute text-2xl">Sponsor 1</p>
+                    </div>
+                    <div class="w-24 h-24 flex justify-center items-center">
+                        <img src="" alt="">
+                        <p class="absolute text-2xl">Sponsor 2</p>
+                    </div>
+
+                    <h2 class="text-center text-6xl">Thanks to our Sponsors!</h2>
+
+                    <div class="w-24 h-24 flex justify-center items-center">
+                        <img src="" alt="">
+                        <p class="absolute text-2xl">Sponsor 3</p>
+                    </div>
+                    <div class="w-24 h-24 flex justify-center items-center">
+                        <img src="" alt="">
+                        <p class="absolute text-2xl">Sponsor 4</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        
+        <section id="sponsors">
+
+        </section>
+
+        
+    </main>
+
+    <footer class="sm:p-8 px-3 py-5 bg-black flex sm:flex-row flex-col gap-7 sm:gap-0 sm:justify-between sm:items-center mt-24">
+        <div class="flex flex-col gap-1 w-[300px] text-sm sm:text-base">
+            <p>Contact: <a class="underline" href="mailto:shayan@codethestars.org" target="_blank" id="email">Shayan@codethestars.org</a></p>
+            <p>Time Travel: <a class="underline" href="https://zachltech.github.io/illuminate-website/csschallenge/ZachLTech/old">Y/N?</a></p>
+            <p>Edit this website: <a class="underline" href="https://github.com/Code-the-Stars/illuminate" target="_blank">Github</a></p>
+        </div>
+        <p class="text-sm sm:text-base">&copy; 2024 Code the Stars. This project falls under the MIT License!</p>
+        <p class="w-[300px] text-sm sm:text-base">Website made with ❤️ by <a class="underline bg-gradient-to-r from-green-400 to-green-700 inline-block text-transparent bg-clip-text" href="https://zachl.space" target="_blank">ZachLTech</a></p>
+    </footer>
+    <div id="contact"></div>
+</div></body>
+</html>

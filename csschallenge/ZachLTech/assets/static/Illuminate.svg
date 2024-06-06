@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="-102.453 24.032 650.517 570.077" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://zachl.tech">
+  <defs>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="231.146" cy="380.156" r="323.801" id="gradient-0" gradientTransform="matrix(0.937459, -0.020622, 0.019071, 0.867019, 8.790872, 62.861551)">
+      <stop offset="0" style="stop-color: rgb(9, 90, 121);"/>
+      <stop offset="1" style="stop-color: rgb(1, 0, 12); stop-opacity: 0.93;"/>
+    </radialGradient>
+  </defs>
+  <path d="M 221.348 30.378 L 545.149 588.176 L -102.453 588.176 L 221.348 30.378 Z" style="stroke: rgb(0, 0, 0); fill: url('#gradient-0'); paint-order: fill; stroke-opacity: 0;" bx:shape="triangle -102.453 30.378 647.602 557.798 0.5 0 1@855e8a8c"/>
+  <rect x="178.372" y="358.287" width="81.805" height="53.615" style="stroke: rgb(0, 0, 0); fill-rule: nonzero; fill: rgb(255, 255, 255); paint-order: stroke; stroke-opacity: 0;"/>
+  <path d="M 240.429 474.634 H 240.429 L 240.429 456.981 L 385.892 475.186 L 240.429 493.391 L 240.429 475.738 H 240.429 V 474.634 Z" style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255); paint-order: stroke; stroke-opacity: 0;" transform="matrix(0, 1, -1, 0, 695.0889489379207, 171.07449850662033)" bx:shape="arrow 240.429 456.981 145.463 36.41 1.103 145.463 0 1@1e70144e"/>
+  <path d="M 166.727 371.994 H 166.727 L 166.727 355.074 L 294.958 372.523 L 166.727 389.972 L 166.727 373.052 H 166.727 V 371.994 Z" style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255); paint-order: stroke; stroke-opacity: 0;" transform="matrix(-0.7143299579620362, -0.6998090744018555, 0.6840900182723999, -0.7297299504280091, 55.01880809720773, 760.5764997177266)" bx:shape="arrow 166.727 355.074 128.231 34.898 1.058 128.231 0 1@3a0bd9c3"/>
+  <path d="M 247.377 346.898 H 247.377 L 247.377 330.169 L 401.851 347.421 L 247.377 364.673 L 247.377 347.944 H 247.377 V 346.898 Z" style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255); paint-order: stroke; stroke-opacity: 0;" transform="matrix(0, -1, 1, 0, -128.54689408978496, 605.7533749864506)" bx:shape="arrow 247.377 330.169 154.474 34.504 1.046 154.474 0 1@be73c65e"/>
+  <path d="M 170.035 371.994 H 170.035 L 170.035 355.074 L 300.811 372.523 L 170.035 389.972 L 170.035 373.052 H 170.035 V 371.994 Z" style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255); paint-order: stroke; stroke-opacity: 0;" transform="matrix(0.7143299579620362, -0.6998090744018555, -0.6840900182723999, -0.7297299504280091, 381.7252005852815, 761.9281232931644)" bx:shape="arrow 170.035 355.074 130.776 34.898 1.058 130.776 0 1@ca5bf9a0"/>
+  <path d="M 199.556 400.096 H 199.556 L 199.556 383.159 L 343.134 400.625 L 199.556 418.092 L 199.556 401.155 H 199.556 V 400.096 Z" style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255); paint-order: stroke; stroke-opacity: 0;" transform="matrix(-0.7453349828720094, 0.6666899919509889, -0.6504190564155579, -0.7598890066146852, 599.3036067278264, 570.0540941373729)" bx:shape="arrow 199.556 383.159 143.578 34.933 1.059 143.578 0 1@5e98e18c"/>
+  <path d="M 199.556 400.096 H 199.556 L 199.556 383.159 L 343.134 400.625 L 199.556 418.092 L 199.556 401.155 H 199.556 V 400.096 Z" style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255); paint-order: markers stroke; stroke-opacity: 0;" transform="matrix(0.7453349828720094, 0.6666899919509889, 0.6504190564155579, -0.7598890066146852, -161.66760735713254, 568.4863450672129)" bx:shape="arrow 199.556 383.159 143.578 34.933 1.059 143.578 0 1@5e98e18c"/>
+  <ellipse style="stroke: rgb(0, 0, 0); stroke-opacity: 0; paint-order: stroke; fill: rgba(255, 255, 255, 0.3);" cx="154.131" cy="180.039" rx="1.942" ry="1.942"/>
+  <ellipse style="stroke: rgb(0, 0, 0); stroke-opacity: 0; paint-order: stroke; fill: rgba(255, 255, 255, 0.3);" cx="209.168" cy="153.06" rx="1.942" ry="1.942"/>
+  <ellipse style="stroke: rgb(0, 0, 0); stroke-opacity: 0; paint-order: stroke; fill: rgba(255, 255, 255, 0.3);" cx="203.988" cy="72.771" rx="1.942" ry="1.942"/>
+  <ellipse style="stroke: rgb(0, 0, 0); stroke-opacity: 0; paint-order: stroke; fill: rgba(255, 255, 255, 0.3);" cx="125.857" cy="220.831" rx="1.942" ry="1.942"/>
+  <ellipse style="stroke: rgb(0, 0, 0); stroke-opacity: 0; paint-order: stroke; fill: rgba(255, 255, 255, 0.3);" cx="427.23" cy="564.075" rx="1.942" ry="1.942"/>
+  <ellipse style="stroke: rgb(0, 0, 0); stroke-opacity: 0; paint-order: stroke; fill: rgba(255, 255, 255, 0.3);" cx="362.913" cy="522.636" rx="1.942" ry="1.942"/>
+  <ellipse style="stroke: rgb(0, 0, 0); stroke-opacity: 0; paint-order: stroke; fill: rgba(255, 255, 255, 0.3);" cx="414.712" cy="472.131" rx="1.942" ry="1.942"/>
+  <ellipse style="stroke: rgb(0, 0, 0); stroke-opacity: 0; paint-order: stroke; fill: rgba(255, 255, 255, 0.3);" cx="405.216" cy="408.245" rx="1.942" ry="1.942"/>
+  <ellipse style="stroke: rgb(0, 0, 0); stroke-opacity: 0; paint-order: stroke; fill: rgba(255, 255, 255, 0.3);" cx="-22.634" cy="505.441" rx="1.942" ry="1.942"/>
+  <ellipse style="stroke: rgb(0, 0, 0); stroke-opacity: 0; paint-order: stroke; fill: rgba(255, 255, 255, 0.3);" cx="-64.506" cy="561.198" rx="1.942" ry="1.942"/>
+  <ellipse style="stroke: rgb(0, 0, 0); stroke-opacity: 0; paint-order: stroke; fill: rgba(255, 255, 255, 0.3);" cx="1.97" cy="571.558" rx="1.942" ry="1.942"/>
+  <ellipse style="stroke: rgb(0, 0, 0); stroke-opacity: 0; paint-order: stroke; fill: rgba(255, 255, 255, 0.3);" cx="40.101" cy="551.701" rx="1.942" ry="1.942"/>
+  <ellipse style="stroke: rgb(0, 0, 0); stroke-opacity: 0; paint-order: stroke; fill: rgba(255, 255, 255, 0.3);" cx="50.749" cy="430.404" rx="1.942" ry="1.942"/>
+  <ellipse style="stroke: rgb(0, 0, 0); stroke-opacity: 0; paint-order: stroke; fill: rgba(255, 255, 255, 0.3);" cx="147.801" cy="536.161" rx="1.942" ry="1.942"/>
+  <ellipse style="stroke: rgb(0, 0, 0); stroke-opacity: 0; paint-order: stroke; fill: rgba(255, 255, 255, 0.3);" cx="278.451" cy="569.399" rx="1.942" ry="1.942"/>
+  <ellipse style="stroke: rgb(0, 0, 0); stroke-opacity: 0; paint-order: stroke; fill: rgba(255, 255, 255, 0.3);" cx="319.459" cy="412.706" rx="1.942" ry="1.942"/>
+  <ellipse style="stroke: rgb(0, 0, 0); stroke-opacity: 0; paint-order: stroke; fill: rgba(255, 255, 255, 0.3);" cx="362.194" cy="359.611" rx="1.942" ry="1.942"/>
+  <ellipse style="stroke: rgb(0, 0, 0); stroke-opacity: 0; paint-order: stroke; fill: rgba(255, 255, 255, 0.3);" cx="301.955" cy="235.854" rx="1.942" ry="1.942"/>
+  <ellipse style="stroke: rgb(0, 0, 0); stroke-opacity: 0; paint-order: stroke; fill: rgba(255, 255, 255, 0.3);" cx="236.507" cy="90" rx="1.942" ry="1.942"/>
+  <ellipse style="stroke: rgb(0, 0, 0); stroke-opacity: 0; paint-order: stroke; fill: rgba(255, 255, 255, 0.3);" cx="243.987" cy="213.415" rx="1.942" ry="1.942"/>
+  <ellipse style="stroke: rgb(0, 0, 0); stroke-opacity: 0; paint-order: stroke; fill: rgba(255, 255, 255, 0.3);" cx="157.036" cy="238.659" rx="1.942" ry="1.942"/>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255); stroke-opacity: 0;" cx="73.541" cy="521.082" rx="4.896" ry="4.896"/>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255); stroke-opacity: 0;" cx="51.581" cy="531.223" rx="4.896" ry="4.896"/>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255); stroke-opacity: 0;" cx="109.95" cy="570.692" rx="4.896" ry="4.896"/>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255); stroke-opacity: 0;" cx="289.745" cy="550.229" rx="4.896" ry="4.896"/>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255); stroke-opacity: 0;" cx="486.202" cy="548.95" rx="4.896" ry="4.896"/>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255); stroke-opacity: 0;" cx="-38.884" cy="538.372" rx="4.896" ry="4.896"/>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255); stroke-opacity: 0;" cx="192.983" cy="226.642" rx="4.896" ry="4.896"/>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255); stroke-opacity: 0;" cx="263.431" cy="148.577" rx="4.896" ry="4.896"/>
+</svg>
