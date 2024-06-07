@@ -26,32 +26,35 @@
         <nav class="w-screen flex justify-between px-2 sm:px-8 py-2 items-center fixed backdrop-blur-sm z-10">
             <a onclick="sscroll('#hero')" class="flex items-center gap-2">
                 <img id="Logo" src="../assets/static/Illuminate.svg" width="40px" height="40px" alt="Logo" class="select none" >
-                <h1 class="poetsen select-none">Illuminate</h1>
+                <h1 class="poetsen select-none">Illuminate Projects</h1>
             </a>
             <div class="flex flex-col sm:hidden">
                 <button class="menu">
                     <img width="25" src="../assets/static/menu.svg" alt="">
                 </button>
                 <ul onclick="this.style.display = 'none'" class="menu-list absolute bg-[#060A2C] rounded text-center">
-                    <li class="m-1 mt-2"><a onclick="sscroll('#hero')">Home</a></li>
-                    <li class="m-1"><a onclick="sscroll('#about')">About</a></li>
-                    <li class="m-1"><a class="bg-gradient-to-r from-green-400 to-green-700 inline-block text-transparent bg-clip-text" href="pages/projects.html" target="_blank">Github</a></li>
-                    <li class="m-1 mb-2"><a onclick="sscroll('#contact')">Contact</a></li>
+                    <li class="m-1 mt-2"><a href="../index.html">Home</a></li>
+                    <li class="m-1"><a href="../index.html#about">About</a></li>
+                    <li class="m-1"><a class="bg-gradient-to-r from-green-400 to-green-700 inline-block text-transparent bg-clip-text" href="https://github.com/codethestars/illuminate" target="_blank">Github</a></li>
+                    <li class="m-1 mb-2"><a href="../index.html#contact">Contact</a></li>
                 </ul>
             </div>
             <ul class="hidden sm:flex gap-2 items-center rounded"> 
-                <li><a onclick="sscroll('#hero')">Home</a></li>
-                <li><a onclick="sscroll('#about')">About</a></li>
-                <li class="m-1"><a class="bg-gradient-to-r from-green-400 to-green-700 inline-block text-transparent bg-clip-text" href="pages/projects.html" target="_blank">Github</a></li>
-                <li><a onclick="sscroll('#contact')">Contact</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html#about">About</a></li>
+                <li class="m-1"><a class="bg-gradient-to-r from-green-400 to-green-700 inline-block text-transparent bg-clip-text" href="https://github.com/codethestars/illuminate" target="_blank">Github</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <section id="leaderboard" class="h-[100vh] flex flex-col justify-center items-center gap-8">
+            <!--Fixes animation height issues-->
             <div class="absolute h-full w-full"></div>
+            <!--LEADERBOARD-->
             <div class="flex justify-center items-end gap-[5.5rem] h-[50vh] w-full">
+                <!--SECOND PLACE-->
                 <div class="flex flex-col justify-center items-center onload2 border-b-4 border-b-[rgb(161,161,161)] w-[25vw] overflow-hidden rounded-b-lg">
                     <div class="w-[25vw] h-[36vh] flex flex-col justify-between items-center bg-[rgba(0,0,0,0.5)] transition-all translate-y-24 hover:translate-y-0 rounded-t-2xl overflow-hidden">
                         <div style="background-image: url('../assets/static/sampleProjectImg1.jpg'); background-size: cover;" class="absolute w-full h-full"></div>
@@ -62,15 +65,15 @@
                         <p class="max-w-[90%] text-center">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa nesciunt quis repudiandae, aliquid repellendus blanditiis.
                         </p>
-                        <div class="h-[6rem] w-[90%] flex flex-wrap justify-center items-center px-16 border-t-2 border-t-white">
-                            <p class="text-lg mx-5">Member 1</p>
-                            <p class="text-lg mx-5">Member 2</p>
-                            <p class="text-lg mx-5">Member 2</p>
-                            <p class="text-lg mx-5">Member 4</p>
+                        <div class="h-[6rem] w-[90%] flex flex-wrap justify-center items-center px-4 border-t-2 border-t-white">
+                            <p class="text-lg mx-1 px-4 rounded-full bg-pink-400">Member 1</p>
+                            <p class="text-lg mx-1 px-4 rounded-full bg-blue-400">Member 2</p>
+                            <p class="text-lg mx-1 px-4 rounded-full bg-green-400">Member 2</p>
+                            <p class="text-lg mx-1 px-4 rounded-full bg-orange-400">Member 4</p>
                         </div>
                     </div>
                 </div>
-
+                <!--FIRST PLACE-->
                 <div class="flex flex-col justify-center items-center onload1 border-b-4 border-b-[rgb(255,252,46)] w-[25vw] overflow-hidden rounded-b-lg -translate-y-16">
                     <div class="w-[25vw] h-[36vh] flex flex-col justify-between items-center bg-[rgba(0,0,0,0.5)] transition-all translate-y-24 hover:translate-y-0 rounded-t-2xl overflow-hidden">
                         <div style="background-image: url('../assets/static/sampleProjectImg2.jpg'); background-size: cover;" class="absolute w-full h-full"></div>
@@ -81,15 +84,15 @@
                         <p class="max-w-[90%] text-center">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa nesciunt quis repudiandae, aliquid repellendus blanditiis.
                         </p>
-                        <div class="h-[6rem] w-[90%] flex flex-wrap justify-center items-center px-16 border-t-2 border-t-white">
-                            <p class="text-lg mx-5">Member 1</p>
-                            <p class="text-lg mx-5">Member 2</p>
-                            <p class="text-lg mx-5">Member 2</p>
-                            <p class="text-lg mx-5">Member 4</p>
+                        <div class="h-[6rem] w-[90%] flex flex-wrap justify-center items-center px-4 border-t-2 border-t-white">
+                            <p class="text-lg mx-1 px-4 rounded-full bg-pink-400">Member 1</p>
+                            <p class="text-lg mx-1 px-4 rounded-full bg-blue-400">Member 2</p>
+                            <p class="text-lg mx-1 px-4 rounded-full bg-green-400">Member 2</p>
+                            <p class="text-lg mx-1 px-4 rounded-full bg-orange-400">Member 4</p>
                         </div>
                     </div>
                 </div>
-
+                <!--THIRD PLACE-->
                 <div class="flex flex-col justify-center items-center onload3 border-b-4 border-b-[rgb(130,88,21)] w-[25vw] overflow-hidden rounded-b-lg">
                     <div class="w-[25vw] h-[36vh] flex flex-col justify-between items-center bg-[rgba(0,0,0,0.5)] transition-all translate-y-24 hover:translate-y-0 rounded-t-2xl overflow-hidden">
                         <div style="background-image: url('../assets/static/sampleProjectImg3.jpg'); background-size: cover;" class="absolute w-full h-full"></div>
@@ -100,49 +103,169 @@
                         <p class="max-w-[90%] text-center">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa nesciunt quis repudiandae, aliquid repellendus blanditiis.
                         </p>
-                        <div class="h-[6rem] w-[90%] flex flex-wrap justify-center items-center px-16 border-t-2 border-t-white">
-                            <p class="text-lg mx-5">Member 1</p>
-                            <p class="text-lg mx-5">Member 2</p>
-                            <p class="text-lg mx-5">Member 2</p>
-                            <p class="text-lg mx-5">Member 4</p>
+                        <div class="h-[6rem] w-[90%] flex flex-wrap justify-center items-center px-4 border-t-2 border-t-white">
+                            <p class="text-lg mx-1 px-4 rounded-full bg-pink-400">Member 1</p>
+                            <p class="text-lg mx-1 px-4 rounded-full bg-blue-400">Member 2</p>
+                            <p class="text-lg mx-1 px-4 rounded-full bg-green-400">Member 2</p>
+                            <p class="text-lg mx-1 px-4 rounded-full bg-orange-400">Member 4</p>
                         </div>
                     </div>
                 </div>
             </div>
+            <!--WINNERS TEXT-->
             <h1 class="flex justify-center items-center h-[20vh] w-full text-8xl font-bold">
                 <span style="transform: scale(-1, 1);">🎉</span> Illuminate Winners 🎉
             </h1>
+            <!--SPONSORS-->
             <div class="flex justify-center items-center h-[20vh] w-full text-8xl">
-                <div class="flex justify-between items-center px-16 w-full h-[60%] border-t-2 border-b-2 border-t-white border-b-white">
-                    <div class="w-24 h-24 flex justify-center items-center">
-                        <img width="100" class="absolute" src="../assets/static/sponsors/echo3d.png" alt="">
-                        <p class="absolute text-2xl">Echo3D</p>
-                    </div>
-                    <div class="w-24 h-24 flex justify-center items-center">
-                        <img src="" alt="">
-                        <p class="absolute text-2xl">Sponsor 2</p>
-                    </div>
+                <div class="flex justify-between items-center px-16 w-full h-[60%] bg-[#060A2C]">
+                    <a href="https://www.echo3d.com/" target="_blank" class="w-24 h-24 flex justify-center items-center">
+                        <img class="absolute w-[100px] transition-all" src="../assets/static/sponsors/echo3d.png" alt="">
+                        <p class="absolute text-3xl font-bold">Echo3D</p>
+                    </a>
+                    <a class="w-24 h-24 flex justify-center items-center">
+                        <img class="absolute w-[100px] transition-all" src="" alt="">
+                        <p class="absolute text-3xl font-bold">Sponsor 2</p>
+                    </a>
 
-                    <h2 class="text-center text-6xl">Thanks to our Sponsors!</h2>
+                    <h2 class="text-center text-4xl">Special Thanks to our Sponsors!</h2>
 
-                    <div class="w-24 h-24 flex justify-center items-center">
-                        <img src="" alt="">
-                        <p class="absolute text-2xl">Sponsor 3</p>
-                    </div>
-                    <div class="w-24 h-24 flex justify-center items-center">
-                        <img src="" alt="">
-                        <p class="absolute text-2xl">Sponsor 4</p>
-                    </div>
+                    <a class="w-24 h-24 flex justify-center items-center">
+                        <img class="absolute w-[100px] transition-all" src="" alt="">
+                        <p class="absolute text-3xl font-bold">Sponsor 3</p>
+                    </a>
+                    <a class="w-24 h-24 flex justify-center items-center">
+                        <img class="absolute w-[100px] transition-all" src="" alt="">
+                        <p class="absolute text-3xl font-bold">Sponsor 4</p>
+                    </a>
                 </div>
             </div>
-
         </section>
-        
-        <section id="sponsors">
+        <!--PROJECTS GRID-->
+        <section class="h-auto" id="projects">
+            <div class="flex flex-wrap w-screen justify-center">
+                <!--FIRST LAYER-->
+                <a class="m-3 w-[384px] h-[480px] bg-[#060A2C] rounded-xl flex flex-col justify-between items-center overflow-hidden">
+                    <div class="w-full h-7 bg-gradient-to-r from-cyan-500 to-blue-500"></div>
+                    <div class="w-[80%] h-[35%] overflow-hidden rounded-xl">
+                        <img src="../assets/static/sampleProjectImg2.jpg" alt="">
+                    </div>
+                    <h1 class="text-5xl font-bold">Project Name</h1>
+                    <div class="w-[90%] bg-gradient-to-r from-cyan-500 to-blue-500 h-[2px]"></div>
+                    <div class="h-[5rem] w-[90%] mb-4 flex flex-wrap justify-center items-center px-4">
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 1</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 2</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 2</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 4</p>
+                    </div>
+                </a>
+                
+                <a class="m-3 w-[384px] h-[480px] bg-[#060A2C] rounded-xl flex flex-col justify-between items-center overflow-hidden">
+                    <div class="w-full h-7 bg-gradient-to-r from-red-500 to-yellow-500"></div>
+                    <div class="w-[80%] h-[35%] overflow-hidden rounded-xl">
+                        <img src="../assets/static/sampleProjectImg1.jpg" alt="">
+                    </div>
+                    <h1 class="text-5xl font-bold">Project Name</h1>
+                    <div class="w-[90%] bg-gradient-to-r from-red-500 to-yellow-500 h-[2px]"></div>
+                    <div class="h-[5rem] w-[90%] mb-4 flex flex-wrap justify-center items-center px-4">
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 1</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 2</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 2</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 4</p>
+                    </div>
+                </a>
+                <a class="m-3 w-[384px] h-[480px] bg-[#060A2C] rounded-xl flex flex-col justify-between items-center overflow-hidden">
+                    <div class="w-full h-7 bg-gradient-to-r from-green-500 to-lime-500"></div>
+                    <div class="w-[80%] h-[35%] overflow-hidden rounded-xl">
+                        <img src="../assets/static/sampleProjectImg3.jpg" alt="">
+                    </div>
+                    <h1 class="text-5xl font-bold">Project Name</h1>
+                    <div class="w-[90%] bg-gradient-to-r from-green-500 to-lime-500 h-[2px]"></div>
+                    <div class="h-[5rem] w-[90%] mb-4 flex flex-wrap justify-center items-center px-4">
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 1</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 2</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 2</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 4</p>
+                    </div>
+                </a>
+                <a class="m-3 w-[384px] h-[480px] bg-[#060A2C] rounded-xl flex flex-col justify-between items-center overflow-hidden">
+                    <div class="w-full h-7 bg-gradient-to-r from-pink-500 to-purple-500"></div>
+                    <div class="w-[80%] h-[35%] overflow-hidden rounded-xl">
+                        <img src="../assets/static/workshop.png" alt="">
+                    </div>
+                    <h1 class="text-5xl font-bold">Project Name</h1>
+                    <div class="w-[90%] bg-gradient-to-r from-pink-500 to-purple-500 h-[2px]"></div>
+                    <div class="h-[5rem] w-[90%] mb-4 flex flex-wrap justify-center items-center px-4">
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 1</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 2</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 2</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 4</p>
+                    </div>
+                </a>
+                <!--SECOND LAYER-->
+                <a class="m-3 w-[384px] h-[480px] bg-[#060A2C] rounded-xl flex flex-col justify-between items-center overflow-hidden">
+                    <div class="w-full h-7 bg-gradient-to-r from-pink-500 to-orange-900"></div>
+                    <div class="w-[80%] h-[35%] overflow-hidden rounded-xl">
+                        <img src="../assets/static/sampleProjectImg3.jpg" alt="">
+                    </div>
+                    <h1 class="text-5xl font-bold">Project Name</h1>
+                    <div class="w-[90%] bg-gradient-to-r from-pink-500 to-orange-500 h-[2px]"></div>
+                    <div class="h-[5rem] w-[90%] mb-4 flex flex-wrap justify-center items-center px-4">
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 1</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 2</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 2</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 4</p>
+                    </div>
+                </a>
+                
+                <a class="m-3 w-[384px] h-[480px] bg-[#060A2C] rounded-xl flex flex-col justify-between items-center overflow-hidden">
+                    <div class="w-full h-7 bg-gradient-to-r from-emerald-500 to-amber-500"></div>
+                    <div class="w-[80%] h-[35%] overflow-hidden rounded-xl">
+                        <img src="../assets/static/network.png" alt="">
+                    </div>
+                    <h1 class="text-5xl font-bold">Project Name</h1>
+                    <div class="w-[90%] bg-gradient-to-r from-emerald-500 to-amber-500 h-[2px]"></div>
+                    <div class="h-[5rem] w-[90%] mb-4 flex flex-wrap justify-center items-center px-4">
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 1</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 2</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 2</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 4</p>
+                    </div>
+                </a>
+                <a class="m-3 w-[384px] h-[480px] bg-[#060A2C] rounded-xl flex flex-col justify-between items-center overflow-hidden">
+                    <div class="w-full h-7 bg-gradient-to-r from-blue-500 to-red-500"></div>
+                    <div class="w-[80%] h-[35%] overflow-hidden rounded-xl">
+                        <img src="../assets/static/coding-in-the-classroom.png" alt="">
+                    </div>
+                    <h1 class="text-5xl font-bold">Project Name</h1>
+                    <div class="w-[90%] bg-gradient-to-r from-blue-500 to-red-500 h-[2px]"></div>
+                    <div class="h-[5rem] w-[90%] mb-4 flex flex-wrap justify-center items-center px-4">
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 1</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 2</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 2</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 4</p>
+                    </div>
+                </a>
+                <a class="m-3 w-[384px] h-[480px] bg-[#060A2C] rounded-xl flex flex-col justify-between items-center overflow-hidden">
+                    <div class="w-full h-7 bg-gradient-to-r from-cyan-500 to-orange-500"></div>
+                    <div class="w-[80%] h-[35%] overflow-hidden rounded-xl">
+                        <img src="../assets/static/sampleProjectImg2.jpg" alt="">
+                    </div>
+                    <h1 class="text-5xl font-bold">Project Name</h1>
+                    <div class="w-[90%] bg-gradient-to-r from-cyan-500 to-orange-500 h-[2px]"></div>
+                    <div class="h-[5rem] w-[90%] mb-4 flex flex-wrap justify-center items-center px-4">
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 1</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 2</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 2</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 4</p>
+                    </div>
+                </a>
+                
 
+
+            </div>
         </section>
 
-        
     </main>
 
     <footer class="sm:p-8 px-3 py-5 bg-black flex sm:flex-row flex-col gap-7 sm:gap-0 sm:justify-between sm:items-center mt-24">
