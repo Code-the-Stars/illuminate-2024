@@ -53,6 +53,34 @@
     animation: 1s ease-out 0s 1 slideInFromBottom-Bronze;
 }
 
+/* Eh it didn't look that good
+.spinRight{
+    animation: 1s ease-out 0s 1 spinRight;
+}
+.spinLeft{
+    animation: 1s ease-out 0s 1 spinLeft;
+}
+
+@keyframes spinRight {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes spinLeft {
+    0% {
+        transform: scale(-1, 1);
+        transform: rotate(450deg);
+    }
+    100% {
+        transform: scale(-1, 1);
+        transform: rotate(-90deg);
+    }
+}
+*/
+
 @keyframes slideInFromBottom-Silver {
     0% {
         opacity: 0.1;
@@ -79,6 +107,19 @@
     }
 }
 
+@keyframes slideInFromBottom-Gold {
+    0% {
+        opacity: 0.1;
+        transform: translateY(50%);
+        box-shadow: 0px 0px 35px 10px rgba(255,252,46,0);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+        box-shadow: 0px 0px 35px 10px rgba(255,252,46,0.9);
+    }
+}
+
 @keyframes slideInFromBottomHigher-Gold {
     0% {
         opacity: 0.1;
@@ -93,6 +134,11 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .onload1{
+        box-shadow: 0px 0px 35px 10px rgba(255,252,46,0.9);
+        animation: 1s ease-out 0s 1 slideInFromBottom-Gold;
+    }
+
     #hero{
         /* background: oklch(12% 0.0484 266.71); */
         background: #010418;
