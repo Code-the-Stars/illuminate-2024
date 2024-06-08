@@ -3,7 +3,7 @@
 </h3>
 <br>
 
-# [Illuminate](https://illuminate-coral.vercel.app/)
+# [Illuminate](https://illuminatehackathon.org/)
 A virtual hackathon taking place on June 7th to June 9th for high-schoolers!
 
 ## How To Work on the CSS
@@ -15,4 +15,6 @@ Hey everyone! In order to protect your code, and so we can see who did what, the
 #### TL;DR
 All you have to do is make a folder in csschallenge and copy-paste your starter code (found in code.md in the folder) and code! Once you finish, make a PR. Vercel should deploy your code, and a staff will review it.
 # Credits:
-@Lightshayan
+@Lightshayan - Host
+
+@Code-the-Stars & team
