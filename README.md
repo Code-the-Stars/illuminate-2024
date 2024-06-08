@@ -1,9 +1,6 @@
 <h3 align="center">
 <img src="./assets/static/Illuminate.svg" alt="Logo" width="350"/>
 </h3>
-<h3 align="center">
-<img src="./assets/static/Illuminate.svg" alt="Logo" width="350"/>
-</h3>
 <br>
 
 # [Illuminate](https://illuminatehackathon.org/)
