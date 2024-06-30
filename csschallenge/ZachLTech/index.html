@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Illuminate - Virtual Hackathon for High-Schoolers</title>
+    <meta content="Illuminate - Virtual Hackathon for High-Schoolers" property="og:title" />
+    <meta name="author" content="Code the Stars">
+    <meta name="application-name" content="Illuminate">
+    <meta name="description" content="Illuminate is a hackathon tailored for high school students to showcase their coding skills and creative ideas. Join for free and compete for prizes!">
+    <meta content="Illuminate is a hackathon tailored for high school students to showcase their coding skills and creative ideas. Join for free and compete for prizes!" property="og:description" />
+    <meta content="https://illuminate-coral.vercel.app/" property="og:url" />
+    <meta content="assets/static/Illuminate.svg" property="og:image" />
+    <meta content="#010418" data-react-helmet="true" name="theme-color" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/defaults.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="assets/js/scroll.js" defer></script>
+    <script src="assets/js/accordian.js" defer></script>
+    <script src="assets/js/menu.js" defer></script>
+</head>
+<body><div class="overflow-x-hidden">
+    <header>
+        <nav class="w-screen flex justify-between px-2 sm:px-8 py-2 items-center fixed backdrop-blur-sm z-10">
+            <a onclick="sscroll('#hero')" class="flex items-center gap-2">
+                <img id="Logo" src="assets/static/Illuminate.svg" width="40px" height="40px" alt="Logo" class="select none" >
+                <h1 class="poetsen select-none">Illuminate</h1>
+            </a>
+            <div class="flex flex-col sm:hidden">
+                <button class="menu">
+                    <img width="25" src="assets/static/menu.svg" alt="">
+                </button>
+                <ul onclick="this.style.display = 'none'" class="menu-list absolute bg-[#060A2C] rounded text-center">
+                    <li class="m-1 mt-2"><a onclick="sscroll('#hero')">Home</a></li>
+                    <li class="m-1"><a onclick="sscroll('#about')">About</a></li>
+                    <li class="m-1"><a onclick="sscroll('#schedule')">Schedule</a></li>
+                    <li class="m-1"><a class="bg-gradient-to-r from-red-600 via-yellow-500 to-orange-600 inline-block text-transparent bg-clip-text" href="projects/index.html">Projects</a></li>
+                    <li class="m-1"><a onclick="sscroll('#faq')">FAQ</a></li>
+                    <li class="m-1 mb-2"><a onclick="sscroll('#contact')">Contact</a></li>
+                </ul>
+            </div>
+            <ul class="hidden sm:flex gap-2 items-center rounded"> 
+                <li><a onclick="sscroll('#hero')">Home</a></li>
+                <li><a onclick="sscroll('#about')">About</a></li>
+                <li><a onclick="sscroll('#schedule')">Schedule</a></li>
+                <li class="m-1"><a class="bg-gradient-to-r from-red-600 via-yellow-500 to-orange-600 inline-block text-transparent bg-clip-text" href="projects/index.html">Projects</a></li>
+                <li><a onclick="sscroll('#faq')">FAQ</a></li>
+                <li><a onclick="sscroll('#contact')">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="flex justify-center items-center wrap">
+            <img width="750" src="assets/static/Illuminate.svg" alt="" class="drop-shadow-xl brightness-50 absolute z-0 -translate-y-5 translate-x-1">
+            <div class="flex flex-col gap-5 justify-center items-center">
+                <h1 class="poetsen text-5xl sm:text-7xl">Illuminate</h1>
+                <p class="text-md sm:text-lg text-center max-w-[500px]">A virtual hackathon designed for high-schoolers to showcase their coding skills and creativity</p>
+                <div class="flex gap-2">
+                    <a href="projects/index.html" class="flex justify-center items-center w-24 h-10 bg-black rounded-xl transition-all hover:-translate-y-1"><span class="font-bold bg-gradient-to-r from-red-600 via-yellow-500 to-orange-600 inline-block text-transparent bg-clip-text">Projects</span></a>
+                    <a onclick="sscroll('#about')" class="flex justify-center items-center w-24 h-10 bg-[rgba(0,0,0,0.3)] border-2 border-black rounded-xl transition-all hover:-translate-y-1">More Info</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="flex flex-col justify-center items-center sm:p-32 gap-[70px] wrap h-auto">
+            <p class="max-w-[950px] sm:leading-loose sm:text-center sm:text-xl p-8 sm:p-0">Illuminate is a hackathon tailored for high school students to showcase their coding skills and creative ideas. Hosted by Code the Stars, get ready for a weekend packed with engaging coding tasks, informative workshops and great opportunities to network. Come be a part of an event where you can express your imagination and interact with students, from various parts of the world.</p>
+            <div class="flex flex-col sm:flex-row wrap p-5 gap-6">
+                <div class="sm:max-w-sm rounded-lg shadow bg-[#060A2C] transition-all sm:hover:-translate-y-5">
+                    <img class="rounded-t-lg w-[920px] h-[200px] sm:h-[260px]" src="assets/static/coding-in-the-classroom.png" alt="" />
+                    <div class="sm:p-5 px-2 py-1">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white text-center">Coding Challenges</h5>
+                        <div class="w-auto mb-4 h-[2px] bg-slate-300 rounded"></div>
+                        <p class="mb-3 font-normal text-lg text-gray-400 text-center">Throughout this hackathon, you're invited to participate in a few coding challenges which are to be announced throughout the event.</p>
+                    </div>
+                </div>
+
+                <div class="max-w-sm rounded-lg shadow bg-[#060A2C] transition-all sm:hover:-translate-y-5">
+                    <img class="rounded-t-lg w-[920px] h-[200px] sm:h-[260px]" src="assets/static/workshop.png" alt="" />
+                    <div class="sm:p-5 px-2 py-1">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white text-center">Speaker Workshops</h5>
+                        <div class="w-auto mb-4 h-[2px] bg-slate-300 rounded"></div>
+                        <p class="mb-3 font-normal text-lg text-gray-400 text-center">Join us during our special workshops where guest speakers will guide participants through fun and educational activities</p>
+                    </div>
+                </div>
+
+                <div class="max-w-sm rounded-lg shadow bg-[#060A2C] transition-all sm:hover:-translate-y-5">
+                    <img class="rounded-t-lg w-[920px] h-[200px] sm:h-[260px]" src="assets/static/network.png" alt="" />
+                    <div class="sm:p-5 px-2 py-1">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white text-center">Networking Opportunities</h5>
+                        <div class="w-auto mb-4 h-[2px] bg-slate-300 rounded"></div>
+                        <p class="mb-3 font-normal text-lg text-gray-400 text-center">Anyone who joins will be able to network themselves via our Discord server and meet new people throughout our event</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="schedule" class="overflow-hidden flex justify-center items-center">
+            <div class="absolute w-[120%] h-12 bg-yellow-500 rotate-12 border-4 border-black hidden sm:flex items-center px-12 justify-between">
+                <p class="text-black text-5xl font-semibold text-clip">TO BE CONTINUED&emsp;TO BE CONTINUED</p>
+                <p class="text-black text-5xl font-semibold text-clip">TO BE CONTINUED&emsp;TO BE CONTINUED</p>
+            </div>
+            <div class="absolute w-[120%] h-12 bg-yellow-500 -rotate-12 border-4 border-black hidden sm:flex items-center px-12 justify-between">
+                <p class="text-black text-5xl font-semibold text-clip">TO BE CONTINUED&emsp;TO BE CONTINUED</p>
+                <p class="text-black text-5xl font-semibold text-clip">TO BE CONTINUED&emsp;TO BE CONTINUED</p>
+            </div>
+            <div class="w-auto p-8 flex flex-col sm:bg-[#060A2C] rounded-xl gap-3 sm:border-4 sm:border-black">
+                <h2 class="sm:text-5xl text-3xl font-bold">Schedule</h2>
+                <p class="max-w-md">The event starts at 6:00 pm on Friday, June 7th, and ends at 12:00 pm on Sunday, June 9th. All times are EST. If you missed the hackathon then don't fear, for another one might come eventually! You can also see more hackathon events <a href="https://hackathons.hackclub.com/" class="underline" target="_blank" rel="noopener noreferrer">HERE</a></p>
+            </div>
+            
+            <ul>
+               <!--insert schedule pic Here! - example below
+                <li>Friday, 6:00 PM - Opening Ceremony</li>
+                <li>Friday, 7:00 PM - Coding Challenge #1</li>
+                <li>Saturday, 10:00 AM - Workshop: Web Development</li>
+                <li>Saturday, 1:00 PM - Coding Challenge #2</li>
+                <li>Sunday, 9:00 AM - Workshop: Mobile App Development</li>
+                <li>Sunday, 12:00 PM - Closing Ceremony</li> -->
+            </ul>
+        </section>
+
+        <section id="faq" class="flex flex-col gap-8 justify-center items-center h-auto">
+            <p class="font-bold text-3xl sm:text-5xl">FAQ</p>
+            <div class="flex flex-col w-[700px] justify-center items-center">
+                <button class="accordion rounded-t-3xl sm:text-xl border-b-2 border-b-[#010418]">Can I still sign up?</button>
+                <div class="panel border-t-2 border-t-[#010418] border-b-2 border-b-[#010418]">
+                    <p class="p-4 text-sm sm:text-base">Well as of June 7th 2024, the hackathon has already started and finished that Sunday. So this website is now more of a showcase of the hackathon results! But, if you want more info, you can still view the FAQs below even though they're grayed out since the hackathon has already commenced.</p>
+                </div>
+
+                <button class="accordion sm:text-xl border-b-2 border-b-[#010418] text-slate-500">Does this cost money?</button>
+                <div class="panel border-t-2 border-t-[#010418] border-b-2 border-b-[#010418]">
+                    <p class="p-4 text-sm sm:text-base">Nope! This is a completely free event where you can learn, code, meet new people, and compete for prizes.</p>
+                </div>
+    
+                <button class="accordion sm:text-xl border-b-2 border-b-[#010418] text-slate-500">Hackathon?? Will I be doing illegal hacking?!</button>
+                <div class="panel border-t-2 border-t-[#010418] border-b-2 border-b-[#010418]">
+                    <p class="p-4 text-sm sm:text-base">Nope! The term "hacking" in this case means creating a project with code, hence the term "hackathon".</p>
+                </div>
+    
+                <button class="accordion sm:text-xl border-b-2 border-b-[#010418] text-slate-500">How do I join?</button>
+                <div class="panel border-t-2 border-t-[#010418] border-b-2 border-b-[#010418]">
+                    <p class="p-4 text-sm sm:text-base">Simply follow <a href="https://codethestars.fillout.com/illuminatesignup" target="_blank" class="underline text-sm sm:text-base">THIS</a> link and fill out the form. Then you should recieve an email confirming your registration!</p>
+                </div>
+
+                <button class="accordion sm:text-xl border-b-2 border-b-[#010418] text-slate-500">Is there a Discord server?</button>
+                <div class="panel border-t-2 border-t-[#010418] border-b-2 border-b-[#010418]">
+                    <p class="p-4 text-sm sm:text-base">Yes! If you haven't already, register <a href="https://codethestars.fillout.com/illuminatesignup" target="_blank" class="underline text-sm sm:text-base">HERE</a> and you'll receive an email with the discord server link. This is where the entire hackathon will be hosted.</p>
+                </div>
+
+                <button class="accordion sm:text-xl border-b-2 border-b-[#010418] text-slate-500">How can I contact whoever runs this event?</button>
+                <div class="panel border-t-2 border-t-[#010418] border-b-2 border-b-[#010418]">
+                    <p class="p-4 text-sm sm:text-base">This event is run by <a href="https://github.com/Code-the-Stars" target="_blank" class="underline text-sm sm:text-base">Code The Stars</a>, and if you have any questions or need further information, feel free to reach out to us at this email: <a href="mailto:shayan@codethestars.org" target="_blank" class="underline">shayan@codethestars.org</a></p>
+                </div>
+
+                <button class="accordion sm:text-xl border-b-2 border-b-[#010418] text-slate-500">Will there be prizes?</button>
+                <div class="panel border-t-2 border-t-[#010418] border-b-2 border-b-[#010418]">
+                    <p class="p-4 text-sm sm:text-base">Yes! As of right now, we're still waiting for a response from some potential sponsors, but there will likely be around $2,000 in prizes for the winners. More details and updates will be in the Discord server</p>
+                </div>
+
+                <button class="accordion sm:text-xl text-slate-500">Where is this event run?</button>
+                <div class="panel border-t-2 border-t-[#010418] border-b-2 border-b-[#010418] rounded-b-3xl sm:w-full">
+                    <p class="p-4 text-sm sm:text-base">The event will be run in our discord server</p>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer class="sm:p-8 px-3 py-5 bg-black flex sm:flex-row flex-col gap-7 sm:gap-0 sm:justify-between sm:items-center mt-24">
+        <div class="flex flex-col gap-1 w-[300px] text-sm sm:text-base">
+            <p>Contact: <a class="underline" href="mailto:shayan@codethestars.org" target="_blank" id="email">Shayan@codethestars.org</a></p>
+            <p>Time Travel: <a class="underline" href="https://zachltech.github.io/illuminate-website/csschallenge/ZachLTech/old">Y/N?</a></p>
+            <p>Edit this website: <a class="underline" href="https://github.com/Code-the-Stars/illuminate" target="_blank">Github</a></p>
+        </div>
+        <p class="text-sm sm:text-base">&copy; 2024 Code the Stars. This project falls under the MIT License!</p>
+        <p class="w-[300px] text-sm sm:text-base">Website made with ❤️ by <a class="underline bg-gradient-to-r from-green-400 to-green-700 inline-block text-transparent bg-clip-text" href="https://zachl.space" target="_blank">ZachLTech</a></p>
+    </footer>
+    <div id="contact"></div>
+</div></body>
+</html>

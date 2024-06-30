@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Illuminate - Projects</title>
+    <meta content="Illuminate - Virtual Hackathon for High-Schoolers" property="og:title" />
+    <meta name="author" content="Code the Stars">
+    <meta name="application-name" content="Illuminate">
+    <meta name="description" content="A page with all the projects submitted. Illuminate is a hackathon tailored for high school students to showcase their coding skills and creative ideas. Join for free and compete for prizes!">
+    <meta content="A page with all the projects submitted. Illuminate is a hackathon tailored for high school students to showcase their coding skills and creative ideas. Join for free and compete for prizes!" property="og:description" />
+    <meta content="https://illuminatehackathon.org" property="og:url" />
+    <meta content="../assets/static/Illuminate.svg" property="og:image" />
+    <meta content="#010418" data-react-helmet="true" name="theme-color" />
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/fonts.css">
+    <link rel="stylesheet" href="../assets/css/defaults.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="../assets/js/scroll.js" defer></script>
+    <script src="../assets/js/accordian.js" defer></script>
+    <script src="../assets/js/menu.js" defer></script>
+</head>
+<body><div class="overflow-x-hidden">
+    <header>
+        <nav class="w-screen flex justify-between px-2 sm:px-8 py-2 items-center fixed backdrop-blur-sm z-10">
+            <a href="../" class="flex items-center gap-2">
+                <img id="Logo" src="../assets/static/Illuminate.svg" width="40px" height="40px" alt="Logo" class="select none" >
+                <h1 class="poetsen select-none">Illuminate</h1>
+            </a>
+            <div class="flex flex-col sm:hidden">
+                <button class="menu">
+                    <img width="25" src="../assets/static/menu.svg" alt="">
+                </button>
+                <ul onclick="this.style.display = 'none'" class="menu-list absolute bg-[#060A2C] rounded text-center">
+                    <li class="m-1 mt-2"><a href="../index.html">Home</a></li>
+                    <li class="m-1"><a href="../index.html#about">About</a></li>
+                    <li class="m-1"><a class="bg-gradient-to-r from-green-400 to-green-700 inline-block text-transparent bg-clip-text" href="https://github.com/codethestars/illuminate" target="_blank">Github</a></li>
+                    <li class="m-1 mb-2"><a href="../index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+            <ul class="hidden sm:flex gap-2 items-center rounded"> 
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html#about">About</a></li>
+                <li class="m-1"><a class="bg-gradient-to-r from-green-400 to-green-700 inline-block text-transparent bg-clip-text" href="https://github.com/codethestars/illuminate" target="_blank">Github</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="leaderboard" class="h-auto flex flex-col justify-center items-center gap-8">
+            <!--Fixes animation height issues-->
+            <div class="absolute h-full w-full"></div>
+            <div class="sm:hidden flex justify-center text-center items-center h-[20vh] w-full text-5xl sm:text-8xl font-bold mx-16 mt-24 sm:gap-4">
+                <span style="transform: scale(-1, 1);" class="spinLeft">🎉</span> <p class="font-bold w-[250px] sm:w-auto">Illuminate Winners</p> <span class="spinRight">🎉</span>
+            </div>
+            <!--LEADERBOARD-->
+            <div class="flex sm:justify-center items-center sm:items-end py-8 sm:py-0 flex-col sm:flex-row gap-[5.5rem] sm:h-[50vh] w-full">
+                <!--SECOND PLACE-->
+                <div class="flex flex-col justify-center items-center onload2 border-b-4 border-b-[rgb(161,161,161)] overflow-hidden rounded-b-lg translate-y-1">
+                    <div class="w-[85vw] sm:w-[25vw] h-auto sm:h-[36vh] flex flex-col justify-between gap-5 items-center bg-[rgba(0,0,0,0.5)] transition-all sm:translate-y-24 sm:hover:translate-y-0 rounded-t-2xl overflow-hidden">
+                        <div style="background-image: url('../assets/static/sampleProjectImg1.jpg'); background-size: cover;" class="absolute w-full h-full rounded-t-xl"></div>
+                        <div class="absolute w-full h-full bg-[rgba(0,0,0,0.5)]"></div>
+                        <div class="w-8 sm:w-12 h-8 sm:h-12 rounded-full bg-[rgb(161,161,161)] absolute top-2 sm:left-2 flex justify-center items-center text-2xl font-bold text-white">2</div>
+                        <!--Actual Card Elements go down here-->
+                        <h1 class="text-4xl sm:text-5xl font-bold mt-12 sm:mt-16 text-center">Project Name</h1>
+                        <p class="max-w-[90%] text-center">
+                            Description Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa nesciunt quis repudiandae, aliquid repellendus blanditiis.
+                        </p>
+                        <div class="h-[6rem] w-[90%] flex flex-wrap justify-center items-center sm:px-4 border-t-2 border-t-white mb-8 sm:mb-0">
+                            <p class="text-lg mx-1 px-4 rounded-full bg-pink-400">Member 1</p>
+                            <p class="text-lg mx-1 px-4 rounded-full bg-blue-400">Member 2</p>
+                            <p class="text-lg mx-1 px-4 rounded-full bg-green-400">Member 2</p>
+                            <p class="text-lg mx-1 px-4 rounded-full bg-orange-400">Member 4</p>
+                        </div>
+                    </div>
+                </div>
+                <!--FIRST PLACE-->
+                <div class="flex flex-col justify-center items-center onload1 sm:border-b-4 border-b-[rgb(255,252,46)] overflow-hidden rounded-xl sm:rounded-b-lg translate-y-1 sm:-translate-y-16">
+                    <div class="w-[85vw] sm:w-[25vw] h-auto sm:h-[36vh] flex flex-col justify-between gap-5 items-center bg-[rgba(0,0,0,0.5)] transition-all sm:translate-y-24 sm:hover:translate-y-0 rounded-t-2xl overflow-hidden">
+                        <div style="background-image: url('../assets/static/sampleProjectImg2.jpg'); background-size: cover;" class="absolute w-full h-full rounded-xl sm:rounded-none"></div>
+                        <div class="absolute w-full h-full bg-[rgba(0,0,0,0.5)]"></div>
+                        <div class="w-8 sm:w-12 h-8 sm:h-12 rounded-full bg-transparent absolute top-2 sm:left-2 fle justify-center items-center text-2xl font-bold text-white">🏆</div>
+                        <!--Actual Card Elements go down here-->
+                        <h1 class="text-4xl sm:text-5xl font-bold mt-12 sm:mt-16 text-center">Project Name</h1>
+                        <p class="max-w-[90%] text-center">
+                            Description Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa nesciunt quis repudiandae, aliquid repellendus blanditiis.
+                        </p>
+                        <div class="h-[6rem] w-[90%] flex flex-wrap justify-center items-center sm:px-4 border-t-2 border-t-white mb-8 sm:mb-0">
+                            <p class="text-lg mx-1 px-4 rounded-full bg-pink-400">Member 1</p>
+                            <p class="text-lg mx-1 px-4 rounded-full bg-blue-400">Member 2</p>
+                            <p class="text-lg mx-1 px-4 rounded-full bg-green-400">Member 2</p>
+                            <p class="text-lg mx-1 px-4 rounded-full bg-orange-400">Member 4</p>
+                        </div>
+                    </div>
+                </div>
+                <!--THIRD PLACE-->
+                <div class="flex flex-col justify-center items-center onload3 border-b-4 border-b-[rgb(130,88,21)] overflow-hidden rounded-b-lg translate-y-1">
+                    <div class="w-[85vw] sm:w-[25vw] h-auto sm:h-[36vh] flex flex-col justify-between gap-5 items-center bg-[rgba(0,0,0,0.5)] transition-all sm:translate-y-24 sm:hover:translate-y-0 rounded-t-2xl overflow-hidden">
+                        <div style="background-image: url('../assets/static/sampleProjectImg3.jpg'); background-size: cover;" class="absolute w-full h-full rounded-t-xl"></div>
+                        <div class="absolute w-full h-full bg-[rgba(0,0,0,0.5)]"></div>
+                        <div class="w-8 sm:w-12 h-8 sm:h-12 rounded-full bg-[rgb(130,88,21)] absolute top-2 sm:left-2 flex justify-center items-center text-2xl font-bold text-white">3</div>
+                        <!--Actual Card Elements go down here-->
+                        <h1 class="text-4xl sm:text-5xl font-bold mt-12 sm:mt-16 text-center">Project Name</h1>
+                        <p class="max-w-[90%] text-center">
+                            Description Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa nesciunt quis repudiandae, aliquid repellendus blanditiis.
+                        </p>
+                        <div class="h-[6rem] w-[90%] flex flex-wrap justify-center items-center sm:px-4 border-t-2 border-t-white mb-8 sm:mb-0">
+                            <p class="text-lg mx-1 px-4 rounded-full bg-pink-400">Member 1</p>
+                            <p class="text-lg mx-1 px-4 rounded-full bg-blue-400">Member 2</p>
+                            <p class="text-lg mx-1 px-4 rounded-full bg-green-400">Member 2</p>
+                            <p class="text-lg mx-1 px-4 rounded-full bg-orange-400">Member 4</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--WINNERS TEXT-->
+            <div class="hidden sm:flex justify-center text-center items-center h-[20vh] w-full text-4xl sm:text-8xl font-bold mx-16 sm:gap-4">
+                <span style="transform: scale(-1, 1);" class="spinLeft">🎉</span> <p class="font-bold w-[250px] sm:w-auto">Illuminate Winners</p> <span class="spinRight">🎉</span>
+            </div>
+            <!--SPONSORS-->
+            <div class="flex justify-center items-center h-auto sm:h-[20vh] w-full text-8xl">
+                <div class="flex flex-wrap justify-between items-center px-16 w-full h-auto py-2 sm:py-0 sm:h-[60%] bg-[#060A2C]">
+                    <a href="https://www.echo3d.com/" target="_blank" class="w-24 h-24 flex justify-center items-center">
+                        <img class="absolute w-[100px] transition-all" src="../assets/static/sponsors/echo3d.png" alt="">
+                        <p class="absolute text-3xl font-bold">Echo3D</p>
+                    </a>
+                    <a href="https://www.desmos.com/" class="w-24 h-24 flex justify-center items-center">
+                        <img class="absolute w-[80px] transition-all" src="../assets/static/sponsors/desmos.png" alt="">
+                        <p class="absolute text-xl sm:text-3xl font-bold bg-[rgba(0,0,0,0.5)] px-1 rounded-lg">desmos</p>
+                    </a>
+
+                    <h2 class="text-center text-xl sm:text-4xl">Special Thanks to our Sponsors!</h2>
+
+                    <a class="w-24 h-24 flex justify-center items-center">
+                        <img class="absolute w-[130px] transition-all" src="../assets/static/sponsors/xyz.png" alt="">
+                    </a>
+                    <a class="w-24 h-24 flex justify-center items-center">
+                        <img class="absolute w-[80px] transition-all" src="../assets/static/sponsors/hackclub.png" alt="">
+                        <p class="absolute text-xl sm:text-3xl font-bold bg-[rgba(0,0,0,0.5)] px-1 rounded-lg">South Hacks</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!--PROJECTS GRID-->
+        <section class="h-auto flex flex-col justify-between mt-12 sm:mt-0" id="projects">
+            <div class="w-full h-52 flex flex-col sm:flex-row gap-5 sm:gap-[50px] justify-center items-center">
+                <div class="text-7xl sm:text-8xl font-bold flex gap-3 items-center">
+                    <div class="hidden sm:block h-32 w-[2px] bg-white"></div>
+                    Gallery
+                </div>
+                <p class="text-xl max-w-[500px] text-center sm:text-left">Thanks to all that participated! Click <a rel="noopener noreferrer">HERE</a> if you don't see your project</p>
+            </div>
+            <div class="flex flex-wrap w-screen justify-center">
+                <!--FIRST LAYER-->
+                <a class="m-3 w-[384px] h-[480px] sm:hover:w-[390px] sm:hover:h-[490px] transition-all bg-[#060A2C] rounded-xl flex flex-col justify-between items-center overflow-hidden">
+                    <div class="w-full h-8 bg-gradient-to-r from-cyan-500 to-blue-500 flex justify-center items-center py-1">
+                        <!-- <p class="text-lg mx-1 px-4 rounded-full bg-blue-600">#Docker</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-blue-900">#AI</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-yellow-500">#Javascript</p> -->
+                    </div>
+                    <div class="w-[80%] h-[35%] overflow-hidden rounded-xl">
+                        <img src="../assets/static/sampleProjectImg2.jpg" alt="">
+                    </div>
+                    <h1 class="text-5xl font-bold">Project Name</h1>
+                    <div class="w-[90%] bg-gradient-to-r from-cyan-500 to-blue-500 h-[2px]"></div>
+                    <div class="h-[5rem] w-[90%] mb-4 flex flex-wrap justify-center items-center px-4">
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 1</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 2</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 2</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 4</p>
+                    </div>
+                </a>
+                
+                <a class="m-3 w-[384px] h-[480px] sm:hover:w-[390px] sm:hover:h-[490px] transition-all bg-[#060A2C] rounded-xl flex flex-col justify-between items-center overflow-hidden">
+                    <div class="w-full h-8 bg-gradient-to-r from-red-500 to-yellow-500 flex justify-center items-center py-1">
+                        <!-- <p class="text-lg mx-1 px-4 rounded-full bg-blue-600">#Frontend</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-red-900">#Backend</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-gray-500">#Fortran</p> -->
+                    </div>
+                    <div class="w-[80%] h-[35%] overflow-hidden rounded-xl">
+                        <img src="../assets/static/sampleProjectImg1.jpg" alt="">
+                    </div>
+                    <h1 class="text-5xl font-bold">Project Name</h1>
+                    <div class="w-[90%] bg-gradient-to-r from-red-500 to-yellow-500 h-[2px]"></div>
+                    <div class="h-[5rem] w-[90%] mb-4 flex flex-wrap justify-center items-center px-4">
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 1</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 2</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 2</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 4</p>
+                    </div>
+                </a>
+                <a class="m-3 w-[384px] h-[480px] sm:hover:w-[390px] sm:hover:h-[490px] transition-all bg-[#060A2C] rounded-xl flex flex-col justify-between items-center overflow-hidden">
+                    <div class="w-full h-8 bg-gradient-to-r from-green-500 to-lime-500 flex justify-center items-center py-1">
+                        <!-- <p class="text-lg mx-1 px-4 rounded-full bg-red-900">#Assembly</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-green-600">#Robots</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-gray-500">#Java</p> -->
+                    </div>
+                    <div class="w-[80%] h-[35%] overflow-hidden rounded-xl">
+                        <img src="../assets/static/sampleProjectImg3.jpg" alt="">
+                    </div>
+                    <h1 class="text-5xl font-bold">Project Name</h1>
+                    <div class="w-[90%] bg-gradient-to-r from-green-500 to-lime-500 h-[2px]"></div>
+                    <div class="h-[5rem] w-[90%] mb-4 flex flex-wrap justify-center items-center px-4">
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 1</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 2</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 2</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 4</p>
+                    </div>
+                </a>
+                <a class="m-3 w-[384px] h-[480px] sm:hover:w-[390px] sm:hover:h-[490px] transition-all bg-[#060A2C] rounded-xl flex flex-col justify-between items-center overflow-hidden">
+                    <div class="w-full h-8 bg-gradient-to-r from-pink-500 to-purple-500 flex justify-center items-center py-1">
+                        <!-- <p class="text-lg mx-1 px-4 rounded-full bg-blue-700">#C++</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-green-500">#Game</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-red-500">#Math</p> -->
+                    </div>
+                    <div class="w-[80%] h-[35%] overflow-hidden rounded-xl">
+                        <img src="../assets/static/workshop.png" alt="">
+                    </div>
+                    <h1 class="text-5xl font-bold">Project Name</h1>
+                    <div class="w-[90%] bg-gradient-to-r from-pink-500 to-purple-500 h-[2px]"></div>
+                    <div class="h-[5rem] w-[90%] mb-4 flex flex-wrap justify-center items-center px-4">
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 1</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 2</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 2</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 4</p>
+                    </div>
+                </a>
+                <!--SECOND LAYER-->
+                <a class="m-3 w-[384px] h-[480px] sm:hover:w-[390px] sm:hover:h-[490px] transition-all bg-[#060A2C] rounded-xl flex flex-col justify-between items-center overflow-hidden">
+                    <div class="w-full h-8 bg-gradient-to-r from-pink-500 to-orange-500 flex justify-center items-center py-1">
+                        <!-- <p class="text-lg mx-1 px-4 rounded-full bg-green-600">#Website</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-gray-900">#Static</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-yellow-500">#HTML</p> -->
+                    </div>
+                    <div class="w-[80%] h-[35%] overflow-hidden rounded-xl">
+                        <img src="../assets/static/sampleProjectImg3.jpg" alt="">
+                    </div>
+                    <h1 class="text-5xl font-bold">Project Name</h1>
+                    <div class="w-[90%] bg-gradient-to-r from-pink-500 to-orange-500 h-[2px]"></div>
+                    <div class="h-[5rem] w-[90%] mb-4 flex flex-wrap justify-center items-center px-4">
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 1</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 2</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 2</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 4</p>
+                    </div>
+                </a>
+                
+                <a class="m-3 w-[384px] h-[480px] sm:hover:w-[390px] sm:hover:h-[490px] transition-all bg-[#060A2C] rounded-xl flex flex-col justify-between items-center overflow-hidden">
+                    <div class="w-full h-8 bg-gradient-to-r from-emerald-500 to-amber-500 flex justify-center items-center py-1">
+                        <!-- <p class="text-lg mx-1 px-4 rounded-full bg-blue-600">#WebApp</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-green-500">#Money</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-red-500">#Useful</p> -->
+                    </div>
+                    <div class="w-[80%] h-[35%] overflow-hidden rounded-xl">
+                        <img src="../assets/static/network.png" alt="">
+                    </div>
+                    <h1 class="text-5xl font-bold">Project Name</h1>
+                    <div class="w-[90%] bg-gradient-to-r from-emerald-500 to-amber-500 h-[2px]"></div>
+                    <div class="h-[5rem] w-[90%] mb-4 flex flex-wrap justify-center items-center px-4">
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 1</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 2</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 2</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 4</p>
+                    </div>
+                </a>
+                <a class="m-3 w-[384px] h-[480px] sm:hover:w-[390px] sm:hover:h-[490px] transition-all bg-[#060A2C] rounded-xl flex flex-col justify-between items-center overflow-hidden">
+                    <div class="w-full h-8 bg-gradient-to-r from-blue-500 to-red-500 flex justify-center items-center py-1">
+                        <!-- <p class="text-lg mx-1 px-4 rounded-full bg-blue-600">#Docker</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-yellow-700">#ExpressJS</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-green-500">#Nuxt</p> -->
+                    </div>
+                    <div class="w-[80%] h-[35%] overflow-hidden rounded-xl">
+                        <img src="../assets/static/coding-in-the-classroom.png" alt="">
+                    </div>
+                    <h1 class="text-5xl font-bold">Project Name</h1>
+                    <div class="w-[90%] bg-gradient-to-r from-blue-500 to-red-500 h-[2px]"></div>
+                    <div class="h-[5rem] w-[90%] mb-4 flex flex-wrap justify-center items-center px-4">
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 1</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 2</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 2</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 4</p>
+                    </div>
+                </a>
+                <a class="m-3 w-[384px] h-[480px] sm:hover:w-[390px] sm:hover:h-[490px] transition-all bg-[#060A2C] rounded-xl flex flex-col justify-between items-center overflow-hidden">
+                    <div class="w-full h-8 bg-gradient-to-r from-cyan-500 to-orange-500 flex justify-center items-center py-1">
+                        <!-- <p class="text-lg mx-1 px-4 rounded-full bg-blue-600">#Python</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-green-500">#Game</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-orange-500">#Beginner</p> -->
+                    </div>
+                    <div class="w-[80%] h-[35%] overflow-hidden rounded-xl">
+                        <img src="../assets/static/sampleProjectImg2.jpg" alt="">
+                    </div>
+                    <h1 class="text-5xl font-bold">Project Name</h1>
+                    <div class="w-[90%] bg-gradient-to-r from-cyan-500 to-orange-500 h-[2px]"></div>
+                    <div class="h-[5rem] w-[90%] mb-4 flex flex-wrap justify-center items-center px-4">
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 1</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 2</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 2</p>
+                        <p class="text-lg mx-1 px-4 rounded-full bg-[#141A4B]">Member 4</p>
+                    </div>
+                </a>
+                
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="sm:p-8 px-3 py-5 bg-black flex sm:flex-row flex-col gap-7 sm:gap-0 sm:justify-between sm:items-center mt-24">
+        <div class="flex flex-col gap-1 w-[300px] text-sm sm:text-base">
+            <p>Contact: <a class="underline" href="mailto:shayan@codethestars.org" target="_blank" id="email">Shayan@codethestars.org</a></p>
+            <p>Time Travel: <a class="underline" href="https://zachltech.github.io/illuminate-website/csschallenge/ZachLTech/old">Y/N?</a></p>
+            <p>Edit this website: <a class="underline" href="https://github.com/Code-the-Stars/illuminate" target="_blank">Github</a></p>
+        </div>
+        <p class="text-sm sm:text-base">&copy; 2024 Code the Stars. This project falls under the MIT License!</p>
+        <p class="w-[300px] text-sm sm:text-base">Website made with ❤️ by <a class="underline bg-gradient-to-r from-green-400 to-green-700 inline-block text-transparent bg-clip-text" href="https://zachl.space" target="_blank">ZachLTech</a></p>
+    </footer>
+    <div id="contact"></div>
+</div></body>
+</html>
