@@ -4,23 +4,17 @@
 <br>
 
 # [Illuminate](https://illuminatehackathon.org/)
-A virtual hackathon taking place on June 7th to June 9th for high-schoolers!
+A virtual hackathon that took place on June 7th to June 9th for high-schoolers! This repo is preserved as a short documentary to remember our first hackathon!
 
-## How To Work on the CSS
-We want the community to work on the CSS to show what they know! Make a fork of this repo, add a folder in the folder 'csschallenge', copy the starter code (code.md), and code! Once you are done, make a pull request! If the code looks good, it will get approved and become a part of the website and you will be added to our credits list! 
-
-### How the Turns have Tabled
-This website will keep getting new pages with atrocious css. Its up to YOU to make it look how you want it to look! This is a mini-competition. The person who makes our website look the coolest will get a little prize, courtesy of Code the Stars. Keep checking to see if there's a new page, or press watch on the top of the page. The results will be announced in the opening ceremony! (There's a twist that was announced in the discord server!)
-
-### Update:
-Hey everyone! In order to protect your code, and so we can see who did what, there is now a folder called 'csschallenge'. When you fork the repo, make sure you create a folder with your username and add all of your code there. The starter website code is in code.md in the folder. Copy the code and paste it in your files! Once you are done, just make a PR! There is an example folder in csschallenge for you to take reference of.
-
-#### TL;DR
-All you have to do is make a folder in csschallenge and copy-paste your starter code (found in code.md in the folder) and code! Once you finish, make a PR. Vercel should deploy your code, and a staff will review it.
+## Pre-Hackathon
+Code the Stars introduced a fun optional activity before the hackathon started called the CSS challenge. We made a website with no CSS, and we challenged participants to add and improve our website! The winner who had the best-looking website was @ZachLTech! 
+## Discord
+Our hackathon used Discord as our method of communication. It was a great way to communicate with participants, until the server got raided (but that's another story). 
 
 # Credits:
 @Lightshayan - Host
+@Thehackerdude1083 - Co-host
+@Azeez1904 - Staff
+And the rest of our AMAZING participants! 
+@Code-the-Stars
 
-@ZachLTech
-
-@Code-the-Stars & team
